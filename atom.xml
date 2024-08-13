@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>YangRenRui&#39;s Blog</title>
+  
+  <subtitle>YangRenRui&#39;s Blog</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-08-12T10:41:24.077Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>YangRenRui</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>3个数的平均值--题解</title>
+    <link href="http://example.com/2024/08/12/3%E4%B8%AA%E6%95%B0%E7%9A%84%E5%B9%B3%E5%9D%87%E5%80%BC-%E9%A2%98%E8%A7%A3/"/>
+    <id>http://example.com/2024/08/12/3%E4%B8%AA%E6%95%B0%E7%9A%84%E5%B9%B3%E5%9D%87%E5%80%BC-%E9%A2%98%E8%A7%A3/</id>
+    <published>2024-08-12T10:40:28.000Z</published>
+    <updated>2024-08-12T10:41:24.077Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="3个数的平均值"><a href="#3个数的平均值" class="headerlink" title="3个数的平均值"></a>3个数的平均值</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输出三个数的平均值</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，三个整数x,y,z</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>x,y,z的平均数，保留两位小数</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1 2 3</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2.00</span><br></pre></td></tr></table></figure><h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h2><h3 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">9 1 7</span><br></pre></td></tr></table></figure><h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">5.67</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">本题使用```Special Judge```评测，输出与标准答案的差&lt;=0.01算通过</span><br><span class="line"></span><br><span class="line">## Code</span><br><span class="line"></span><br><span class="line">```cpp</span><br><span class="line">#include&lt;bits/stdc++.h&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">int main()&#123;</span><br><span class="line">    int a,b,c;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;</span><br><span class="line">    printf(&quot;%.2lf&quot;,1.0*(a+b+c)/3);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;3个数的平均值&quot;&gt;&lt;a href=&quot;#3个数的平均值&quot; class=&quot;headerlink&quot; title=&quot;3个数的平均值&quot;&gt;&lt;/a&gt;3个数的平均值&lt;/h1&gt;&lt;h2 id=&quot;题目背景&quot;&gt;&lt;a href=&quot;#题目背景&quot; class=&quot;headerlink&quot; titl</summary>
+      
+    
+    
+    
+    <category term="洛谷题解" scheme="http://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello,Name--题解</title>
+    <link href="http://example.com/2024/08/12/Hello-Name-%E9%A2%98%E8%A7%A3/"/>
+    <id>http://example.com/2024/08/12/Hello-Name-%E9%A2%98%E8%A7%A3/</id>
+    <published>2024-08-12T10:38:06.000Z</published>
+    <updated>2024-08-12T10:39:10.578Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hello-Name"><a href="#Hello-Name" class="headerlink" title="Hello,Name"></a>Hello,Name</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输出”Hello,Name”</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，字符串Name</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“Hello,Name”</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">123</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello,123</span><br></pre></td></tr></table></figure><h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h2><h3 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">B</span><br></pre></td></tr></table></figure><h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello,B</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>|Name|&lt;&#x3D;10</p><h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin&gt;&gt;a;</span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;Hello,&quot;</span>&lt;&lt;a;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Hello-Name&quot;&gt;&lt;a href=&quot;#Hello-Name&quot; class=&quot;headerlink&quot; title=&quot;Hello,Name&quot;&gt;&lt;/a&gt;Hello,Name&lt;/h1&gt;&lt;h2 id=&quot;题目背景&quot;&gt;&lt;a href=&quot;#题目背景&quot; class=&quot;head</summary>
+      
+    
+    
+    
+    <category term="洛谷题解" scheme="http://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>You are Age years old--题解</title>
+    <link href="http://example.com/2024/08/12/You-are-Age-years-old-%E9%A2%98%E8%A7%A3/"/>
+    <id>http://example.com/2024/08/12/You-are-Age-years-old-%E9%A2%98%E8%A7%A3/</id>
+    <published>2024-08-12T10:36:31.000Z</published>
+    <updated>2024-08-12T10:36:59.113Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="You-are-Age-years-old"><a href="#You-are-Age-years-old" class="headerlink" title="You are Age years old"></a>You are Age years old</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输出”You are Age years old”</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，Age</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“You are Age years old”</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">You are 1 years old</span><br></pre></td></tr></table></figure><h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h2><h3 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">10</span><br></pre></td></tr></table></figure><h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">You are 10 years old</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>Age在int范围内</p><h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> a;</span><br><span class="line">    cin&gt;&gt;a;</span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;You are &quot;</span>&lt;&lt;a&lt;&lt;<span class="string">&quot; years old&quot;</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;You-are-Age-years-old&quot;&gt;&lt;a href=&quot;#You-are-Age-years-old&quot; class=&quot;headerlink&quot; title=&quot;You are Age years old&quot;&gt;&lt;/a&gt;You are Age years old&lt;/</summary>
+      
+    
+    
+    
+    <category term="洛谷题解" scheme="http://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>重要的数字说三遍--题解</title>
+    <link href="http://example.com/2024/08/12/%E9%87%8D%E8%A6%81%E7%9A%84%E6%95%B0%E5%AD%97%E8%AF%B4%E4%B8%89%E9%81%8D-%E9%A2%98%E8%A7%A3/"/>
+    <id>http://example.com/2024/08/12/%E9%87%8D%E8%A6%81%E7%9A%84%E6%95%B0%E5%AD%97%E8%AF%B4%E4%B8%89%E9%81%8D-%E9%A2%98%E8%A7%A3/</id>
+    <published>2024-08-12T10:34:11.000Z</published>
+    <updated>2024-08-12T10:35:48.795Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="重要的数字说三遍"><a href="#重要的数字说三遍" class="headerlink" title="重要的数字说三遍"></a>重要的数字说三遍</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>重要的数字说三遍</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，一个数字n</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“n n n”</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">500</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">500 500 500</span><br></pre></td></tr></table></figure><h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h2><h3 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure><h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3 3 3</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p><code>INT_MIN</code>&lt;&#x3D;n&lt;&#x3D;<code>INT_MAX</code></p><h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line">    cout&lt;&lt;n&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;n&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;n;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;重要的数字说三遍&quot;&gt;&lt;a href=&quot;#重要的数字说三遍&quot; class=&quot;headerlink&quot; title=&quot;重要的数字说三遍&quot;&gt;&lt;/a&gt;重要的数字说三遍&lt;/h1&gt;&lt;h2 id=&quot;题目背景&quot;&gt;&lt;a href=&quot;#题目背景&quot; class=&quot;headerlink&quot; </summary>
+      
+    
+    
+    
+    <category term="洛谷题解" scheme="http://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>A*B*C Problem--题解</title>
+    <link href="http://example.com/2024/08/12/A-B-C-Problem-%E9%A2%98%E8%A7%A3/"/>
+    <id>http://example.com/2024/08/12/A-B-C-Problem-%E9%A2%98%E8%A7%A3/</id>
+    <published>2024-08-12T10:29:52.000Z</published>
+    <updated>2024-08-12T10:35:59.619Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="A-B-C-Problem"><a href="#A-B-C-Problem" class="headerlink" title="A*B*C Problem"></a>A*B*C Problem</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输出A*B*C</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，三个整数A,B,C</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>一行，A*B*C</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1 2 3</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">6</span><br></pre></td></tr></table></figure><h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h2><h3 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">10 9 8</span><br></pre></td></tr></table></figure><h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">720</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p><code>INT_MIN</code>&lt;&#x3D;A*B*C&lt;&#x3D;<code>INT_MAX</code></p><h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b,c;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;</span><br><span class="line">    cout&lt;&lt;a*b*c;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;A-B-C-Problem&quot;&gt;&lt;a href=&quot;#A-B-C-Problem&quot; class=&quot;headerlink&quot; title=&quot;A*B*C Problem&quot;&gt;&lt;/a&gt;A*B*C Problem&lt;/h1&gt;&lt;h2 id=&quot;题目背景&quot;&gt;&lt;a href=&quot;#题目背景&quot;</summary>
+      
+    
+    
+    
+    <category term="洛谷题解" scheme="http://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>介绍</title>
+    <link href="http://example.com/2024/08/11/%E4%BB%8B%E7%BB%8D/"/>
+    <id>http://example.com/2024/08/11/%E4%BB%8B%E7%BB%8D/</id>
+    <published>2024-08-11T11:47:15.000Z</published>
+    <updated>2024-08-12T10:26:57.332Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="中文："><a href="#中文：" class="headerlink" title="中文："></a>中文：</h2><h4 id="我叫杨人瑞，是宁波市四眼碶小学的一名学生。"><a href="#我叫杨人瑞，是宁波市四眼碶小学的一名学生。" class="headerlink" title="我叫杨人瑞，是宁波市四眼碶小学的一名学生。"></a>我叫杨人瑞，是宁波市四眼碶小学的一名学生。</h4><h2 id="English："><a href="#English：" class="headerlink" title="English："></a>English：</h2><h4 id="My-name-is-Yang-Renrui-and-I-am-a-student-at-Siyanqiao-Primary-School-in-Ningbo-City"><a href="#My-name-is-Yang-Renrui-and-I-am-a-student-at-Siyanqiao-Primary-School-in-Ningbo-City" class="headerlink" title="My name is Yang Renrui, and I am a student at Siyanqiao Primary School in Ningbo City."></a>My name is Yang Renrui, and I am a student at Siyanqiao Primary School in Ningbo City.</h4>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;中文：&quot;&gt;&lt;a href=&quot;#中文：&quot; class=&quot;headerlink&quot; title=&quot;中文：&quot;&gt;&lt;/a&gt;中文：&lt;/h2&gt;&lt;h4 id=&quot;我叫杨人瑞，是宁波市四眼碶小学的一名学生。&quot;&gt;&lt;a href=&quot;#我叫杨人瑞，是宁波市四眼碶小学的一名学生。&quot; class</summary>
+      
+    
+    
+    
+    <category term="个人介绍" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/"/>
+    
+    
+    <category term="介绍" scheme="http://example.com/tags/%E4%BB%8B%E7%BB%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>✨五分钟从零搭建自己的博客</title>
+    <link href="http://example.com/2024/08/11/%E2%9C%A8%E4%BA%94%E5%88%86%E9%92%9F%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2024/08/11/%E2%9C%A8%E4%BA%94%E5%88%86%E9%92%9F%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
+    <published>2024-08-11T10:59:17.000Z</published>
+    <updated>2024-08-11T11:39:46.172Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在CSDN，我们可以看见许多篇博客，但是有时候又长度要求。于是，今天小编就教你 <strong>不用代码</strong> ，五分钟搭建一个属于自己的个人博客。</p><h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>作者：@<a href="https://github.com/hexojs/">Hexojs</a><br>仓库：<a href="https://github.com/hexojs/hexo">https://github.com/hexojs/hexo</a><br>文档：<a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></p><h2 id="前置要求"><a href="#前置要求" class="headerlink" title="前置要求"></a>前置要求</h2><p>在电脑上装有npm，没有可以<a href="https://nodejs.org/en/download/prebuilt-installer">安装</a><br>在电脑上装有git，没有可以<a href="https://git-scm.com/downloads">安装</a><br>当前可以连接<a href="https://github.com/">GitHub</a></p><h2 id="安装Hexo-Cli"><a href="#安装Hexo-Cli" class="headerlink" title="安装Hexo-Cli"></a>安装Hexo-Cli</h2><p>在以管理员权限运行的cmd中运行<code>npm install hexo-cli -g</code></p><h2 id="初始化Hexo"><a href="#初始化Hexo" class="headerlink" title="初始化Hexo"></a>初始化Hexo</h2><p>在以管理员权限运行的cmd中运行<code>hexo init hexo&amp;cd hexo&amp;npm install</code><br>在这个时候，你已经可以用<code>hexo server</code>运行你的博客了</p><h2 id="安装Vivia"><a href="#安装Vivia" class="headerlink" title="安装Vivia"></a>安装Vivia</h2><p>在以管理员权限运行的cmd中运行 <code>npm install hexo-theme-vivia&amp;git clone https://github.com/saicaca/hexo-theme-vivia.git themes/vivia&amp;npm install colorjs.io stylus hexo-symbols-count-time</code><br>将<code>hexo\themes\vivia\example_zh_CN_config.vivia.yml</code>复制到<code>hexo\</code>并重命名为<code>_config.vivia.yml</code></p><h2 id="将主题替换为Vivia"><a href="#将主题替换为Vivia" class="headerlink" title="将主题替换为Vivia"></a>将主题替换为Vivia</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo config theme vivia</span><br></pre></td></tr></table></figure><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>本篇博客就这样结束了，剩下的功能可以运行<code>hexo</code>自行探索</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;在CSDN，我们可以看见许多篇博客，但是有时候又长度要求。于是，今天小编就教你 &lt;strong&gt;不用代码&lt;/strong&gt; ，五分钟搭建一个</summary>
+      
+    
+    
+    
+    
+    <category term="Github" scheme="http://example.com/tags/Github/"/>
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+    <category term="Vivia" scheme="http://example.com/tags/Vivia/"/>
+    
+    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+</feed>
