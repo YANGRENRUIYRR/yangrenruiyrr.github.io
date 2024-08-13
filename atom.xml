@@ -3,11 +3,11 @@
   <title>YangRenRui&#39;s Blog</title>
   
   <subtitle>YangRenRui&#39;s Blog</subtitle>
-  <link href="https://yangrenruiyrr.github.io/atom.xml" rel="self"/>
+  <link href="https://example.com/atom.xml" rel="self"/>
   
-  <link href="https://yangrenruiyrr.github.io/"/>
+  <link href="https://example.com/"/>
   <updated>2024-08-12T10:41:24.077Z</updated>
-  <id>https://yangrenruiyrr.github.io/</id>
+  <id>https://example.com/</id>
   
   <author>
     <name>YangRenRui</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>3个数的平均值--题解</title>
-    <link href="https://yangrenruiyrr.github.io/2024/08/12/3%E4%B8%AA%E6%95%B0%E7%9A%84%E5%B9%B3%E5%9D%87%E5%80%BC-%E9%A2%98%E8%A7%A3/"/>
-    <id>https://yangrenruiyrr.github.io/2024/08/12/3%E4%B8%AA%E6%95%B0%E7%9A%84%E5%B9%B3%E5%9D%87%E5%80%BC-%E9%A2%98%E8%A7%A3/</id>
+    <link href="https://example.com/2024/08/12/3%E4%B8%AA%E6%95%B0%E7%9A%84%E5%B9%B3%E5%9D%87%E5%80%BC-%E9%A2%98%E8%A7%A3/"/>
+    <id>https://example.com/2024/08/12/3%E4%B8%AA%E6%95%B0%E7%9A%84%E5%B9%B3%E5%9D%87%E5%80%BC-%E9%A2%98%E8%A7%A3/</id>
     <published>2024-08-12T10:40:28.000Z</published>
     <updated>2024-08-12T10:41:24.077Z</updated>
     
@@ -33,19 +33,19 @@
     
     
     
-    <category term="洛谷题解" scheme="https://yangrenruiyrr.github.io/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    <category term="洛谷题解" scheme="https://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
     
     
-    <category term="洛谷" scheme="https://yangrenruiyrr.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    <category term="洛谷" scheme="https://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
     
-    <category term="题解" scheme="https://yangrenruiyrr.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    <category term="题解" scheme="https://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
   <entry>
     <title>Hello,Name--题解</title>
-    <link href="https://yangrenruiyrr.github.io/2024/08/12/Hello-Name-%E9%A2%98%E8%A7%A3/"/>
-    <id>https://yangrenruiyrr.github.io/2024/08/12/Hello-Name-%E9%A2%98%E8%A7%A3/</id>
+    <link href="https://example.com/2024/08/12/Hello-Name-%E9%A2%98%E8%A7%A3/"/>
+    <id>https://example.com/2024/08/12/Hello-Name-%E9%A2%98%E8%A7%A3/</id>
     <published>2024-08-12T10:38:06.000Z</published>
     <updated>2024-08-12T10:39:10.578Z</updated>
     
@@ -59,19 +59,19 @@
     
     
     
-    <category term="洛谷题解" scheme="https://yangrenruiyrr.github.io/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    <category term="洛谷题解" scheme="https://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
     
     
-    <category term="洛谷" scheme="https://yangrenruiyrr.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    <category term="洛谷" scheme="https://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
     
-    <category term="题解" scheme="https://yangrenruiyrr.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    <category term="题解" scheme="https://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
   <entry>
     <title>You are Age years old--题解</title>
-    <link href="https://yangrenruiyrr.github.io/2024/08/12/You-are-Age-years-old-%E9%A2%98%E8%A7%A3/"/>
-    <id>https://yangrenruiyrr.github.io/2024/08/12/You-are-Age-years-old-%E9%A2%98%E8%A7%A3/</id>
+    <link href="https://example.com/2024/08/12/You-are-Age-years-old-%E9%A2%98%E8%A7%A3/"/>
+    <id>https://example.com/2024/08/12/You-are-Age-years-old-%E9%A2%98%E8%A7%A3/</id>
     <published>2024-08-12T10:36:31.000Z</published>
     <updated>2024-08-12T10:36:59.113Z</updated>
     
@@ -85,19 +85,19 @@
     
     
     
-    <category term="洛谷题解" scheme="https://yangrenruiyrr.github.io/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    <category term="洛谷题解" scheme="https://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
     
     
-    <category term="洛谷" scheme="https://yangrenruiyrr.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    <category term="洛谷" scheme="https://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
     
-    <category term="题解" scheme="https://yangrenruiyrr.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    <category term="题解" scheme="https://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
   <entry>
     <title>重要的数字说三遍--题解</title>
-    <link href="https://yangrenruiyrr.github.io/2024/08/12/%E9%87%8D%E8%A6%81%E7%9A%84%E6%95%B0%E5%AD%97%E8%AF%B4%E4%B8%89%E9%81%8D-%E9%A2%98%E8%A7%A3/"/>
-    <id>https://yangrenruiyrr.github.io/2024/08/12/%E9%87%8D%E8%A6%81%E7%9A%84%E6%95%B0%E5%AD%97%E8%AF%B4%E4%B8%89%E9%81%8D-%E9%A2%98%E8%A7%A3/</id>
+    <link href="https://example.com/2024/08/12/%E9%87%8D%E8%A6%81%E7%9A%84%E6%95%B0%E5%AD%97%E8%AF%B4%E4%B8%89%E9%81%8D-%E9%A2%98%E8%A7%A3/"/>
+    <id>https://example.com/2024/08/12/%E9%87%8D%E8%A6%81%E7%9A%84%E6%95%B0%E5%AD%97%E8%AF%B4%E4%B8%89%E9%81%8D-%E9%A2%98%E8%A7%A3/</id>
     <published>2024-08-12T10:34:11.000Z</published>
     <updated>2024-08-12T10:35:48.795Z</updated>
     
@@ -111,19 +111,19 @@
     
     
     
-    <category term="洛谷题解" scheme="https://yangrenruiyrr.github.io/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    <category term="洛谷题解" scheme="https://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
     
     
-    <category term="洛谷" scheme="https://yangrenruiyrr.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    <category term="洛谷" scheme="https://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
     
-    <category term="题解" scheme="https://yangrenruiyrr.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    <category term="题解" scheme="https://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
   <entry>
     <title>A*B*C Problem--题解</title>
-    <link href="https://yangrenruiyrr.github.io/2024/08/12/A-B-C-Problem-%E9%A2%98%E8%A7%A3/"/>
-    <id>https://yangrenruiyrr.github.io/2024/08/12/A-B-C-Problem-%E9%A2%98%E8%A7%A3/</id>
+    <link href="https://example.com/2024/08/12/A-B-C-Problem-%E9%A2%98%E8%A7%A3/"/>
+    <id>https://example.com/2024/08/12/A-B-C-Problem-%E9%A2%98%E8%A7%A3/</id>
     <published>2024-08-12T10:29:52.000Z</published>
     <updated>2024-08-12T10:35:59.619Z</updated>
     
@@ -137,19 +137,19 @@
     
     
     
-    <category term="洛谷题解" scheme="https://yangrenruiyrr.github.io/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    <category term="洛谷题解" scheme="https://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
     
     
-    <category term="洛谷" scheme="https://yangrenruiyrr.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    <category term="洛谷" scheme="https://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
     
-    <category term="题解" scheme="https://yangrenruiyrr.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    <category term="题解" scheme="https://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
   <entry>
     <title>介绍</title>
-    <link href="https://yangrenruiyrr.github.io/2024/08/11/%E4%BB%8B%E7%BB%8D/"/>
-    <id>https://yangrenruiyrr.github.io/2024/08/11/%E4%BB%8B%E7%BB%8D/</id>
+    <link href="https://example.com/2024/08/11/%E4%BB%8B%E7%BB%8D/"/>
+    <id>https://example.com/2024/08/11/%E4%BB%8B%E7%BB%8D/</id>
     <published>2024-08-11T11:47:15.000Z</published>
     <updated>2024-08-12T10:26:57.332Z</updated>
     
@@ -163,17 +163,17 @@
     
     
     
-    <category term="个人介绍" scheme="https://yangrenruiyrr.github.io/categories/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/"/>
+    <category term="个人介绍" scheme="https://example.com/categories/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/"/>
     
     
-    <category term="介绍" scheme="https://yangrenruiyrr.github.io/tags/%E4%BB%8B%E7%BB%8D/"/>
+    <category term="介绍" scheme="https://example.com/tags/%E4%BB%8B%E7%BB%8D/"/>
     
   </entry>
   
   <entry>
     <title>✨五分钟从零搭建自己的博客</title>
-    <link href="https://yangrenruiyrr.github.io/2024/08/11/%E2%9C%A8%E4%BA%94%E5%88%86%E9%92%9F%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://yangrenruiyrr.github.io/2024/08/11/%E2%9C%A8%E4%BA%94%E5%88%86%E9%92%9F%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
+    <link href="https://example.com/2024/08/11/%E2%9C%A8%E4%BA%94%E5%88%86%E9%92%9F%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://example.com/2024/08/11/%E2%9C%A8%E4%BA%94%E5%88%86%E9%92%9F%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
     <published>2024-08-11T10:59:17.000Z</published>
     <updated>2024-08-11T11:39:46.172Z</updated>
     
@@ -188,13 +188,13 @@
     
     
     
-    <category term="Github" scheme="https://yangrenruiyrr.github.io/tags/Github/"/>
+    <category term="Github" scheme="https://example.com/tags/Github/"/>
     
-    <category term="Hexo" scheme="https://yangrenruiyrr.github.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://example.com/tags/Hexo/"/>
     
-    <category term="Vivia" scheme="https://yangrenruiyrr.github.io/tags/Vivia/"/>
+    <category term="Vivia" scheme="https://example.com/tags/Vivia/"/>
     
-    <category term="教程" scheme="https://yangrenruiyrr.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://example.com/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
