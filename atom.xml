@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-08-15T10:16:15.061Z</updated>
+  <updated>2024-08-15T10:20:52.334Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,18 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>&quot;B&quot;+&quot;C&quot;+&quot;D&quot;+&quot;A&quot; Problem--题解 </title>
-    <link href="http://example.com/2024/08/15/B+C+D+A%20Problem--%E9%A2%98%E8%A7%A3/"/>
-    <id>http://example.com/2024/08/15/B+C+D+A%20Problem--%E9%A2%98%E8%A7%A3/</id>
+    <title>&quot;B&quot;+&quot;A&quot;+&quot;D&quot;+&quot;C&quot; Problem--题解</title>
+    <link href="http://example.com/2024/08/15/B+A+D+C%20Problem--%E9%A2%98%E8%A7%A3/"/>
+    <id>http://example.com/2024/08/15/B+A+D+C%20Problem--%E9%A2%98%E8%A7%A3/</id>
     <published>2024-08-15T10:08:05.000Z</published>
-    <updated>2024-08-15T10:16:15.061Z</updated>
+    <updated>2024-08-15T10:20:52.334Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="“B”-”C”-”D”-”A”-Problem"><a href="#“B”-”C”-”D”-”A”-Problem" class="headerlink" title="“B”+”C”+”D”+”A” Problem"></a>“B”+”C”+”D”+”A” Problem</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>“B”+”C”+”D”+”A”</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，A,B,C,D</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“B”+”C”+”D”+”A”</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1 2 3 4</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2341</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>int</p><h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b,c,d;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c&gt;&gt;d;</span><br><span class="line">    cout&lt;&lt;b&lt;&lt;c&lt;&lt;d&lt;&lt;a;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="“B”-”A”-”D”-”C”-Problem"><a href="#“B”-”A”-”D”-”C”-Problem" class="headerlink" title="“B”+”A”+”D”+”C” Problem"></a>“B”+”A”+”D”+”C” Problem</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>“B”+”A”+”D”+”C”</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，A,B,C,D</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“B”+”A”+”D”+”C”</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1 2 3 4</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2143</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>int</p><h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b,c,d;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c&gt;&gt;d;</span><br><span class="line">    cout&lt;&lt;b&lt;&lt;a&lt;&lt;d&lt;&lt;c;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;“B”-”C”-”D”-”A”-Problem&quot;&gt;&lt;a href=&quot;#“B”-”C”-”D”-”A”-Problem&quot; class=&quot;headerlink&quot; title=&quot;“B”+”C”+”D”+”A” Problem&quot;&gt;&lt;/a&gt;“B”+”C”+”D”+”A” P</summary>
+    <summary type="html">&lt;h1 id=&quot;“B”-”A”-”D”-”C”-Problem&quot;&gt;&lt;a href=&quot;#“B”-”A”-”D”-”C”-Problem&quot; class=&quot;headerlink&quot; title=&quot;“B”+”A”+”D”+”C” Problem&quot;&gt;&lt;/a&gt;“B”+”A”+”D”+”C” P</summary>
       
     
     
@@ -69,18 +69,18 @@
   </entry>
   
   <entry>
-    <title>&quot;B&quot;+&quot;D&quot;+&quot;A&quot;+&quot;C&quot; Problem--题解</title>
-    <link href="http://example.com/2024/08/15/B+D+A+C%20Problem--%E9%A2%98%E8%A7%A3/"/>
-    <id>http://example.com/2024/08/15/B+D+A+C%20Problem--%E9%A2%98%E8%A7%A3/</id>
+    <title>&quot;B&quot;+&quot;C&quot;+&quot;D&quot;+&quot;A&quot; Problem--题解 </title>
+    <link href="http://example.com/2024/08/15/B+C+D+A%20Problem--%E9%A2%98%E8%A7%A3/"/>
+    <id>http://example.com/2024/08/15/B+C+D+A%20Problem--%E9%A2%98%E8%A7%A3/</id>
     <published>2024-08-15T10:08:05.000Z</published>
-    <updated>2024-08-15T10:15:40.003Z</updated>
+    <updated>2024-08-15T10:16:15.061Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="“B”-”D”-”A”-”C”-Problem"><a href="#“B”-”D”-”A”-”C”-Problem" class="headerlink" title="“B”+”D”+”A”+”C” Problem"></a>“B”+”D”+”A”+”C” Problem</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>“B”+”D”+”A”+”C”</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，A,B,C,D</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“B”+”D”+”A”+”C”</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1 2 3 4</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2413</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>int</p><h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b,c,d;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c&gt;&gt;d;</span><br><span class="line">    cout&lt;&lt;b&lt;&lt;d&lt;&lt;a&lt;&lt;c;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="“B”-”C”-”D”-”A”-Problem"><a href="#“B”-”C”-”D”-”A”-Problem" class="headerlink" title="“B”+”C”+”D”+”A” Problem"></a>“B”+”C”+”D”+”A” Problem</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>“B”+”C”+”D”+”A”</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，A,B,C,D</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“B”+”C”+”D”+”A”</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1 2 3 4</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2341</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>int</p><h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b,c,d;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c&gt;&gt;d;</span><br><span class="line">    cout&lt;&lt;b&lt;&lt;c&lt;&lt;d&lt;&lt;a;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;“B”-”D”-”A”-”C”-Problem&quot;&gt;&lt;a href=&quot;#“B”-”D”-”A”-”C”-Problem&quot; class=&quot;headerlink&quot; title=&quot;“B”+”D”+”A”+”C” Problem&quot;&gt;&lt;/a&gt;“B”+”D”+”A”+”C” P</summary>
+    <summary type="html">&lt;h1 id=&quot;“B”-”C”-”D”-”A”-Problem&quot;&gt;&lt;a href=&quot;#“B”-”C”-”D”-”A”-Problem&quot; class=&quot;headerlink&quot; title=&quot;“B”+”C”+”D”+”A” Problem&quot;&gt;&lt;/a&gt;“B”+”C”+”D”+”A” P</summary>
       
     
     
@@ -95,18 +95,18 @@
   </entry>
   
   <entry>
-    <title>&quot;B&quot;+&quot;A&quot;+&quot;D&quot;+&quot;C&quot; Problem--题解</title>
-    <link href="http://example.com/2024/08/15/B+A+D+C%20Problem--%E9%A2%98%E8%A7%A3/"/>
-    <id>http://example.com/2024/08/15/B+A+D+C%20Problem--%E9%A2%98%E8%A7%A3/</id>
+    <title>&quot;B&quot;+&quot;D&quot;+&quot;A&quot;+&quot;C&quot; Problem--题解</title>
+    <link href="http://example.com/2024/08/15/B+D+A+C%20Problem--%E9%A2%98%E8%A7%A3/"/>
+    <id>http://example.com/2024/08/15/B+D+A+C%20Problem--%E9%A2%98%E8%A7%A3/</id>
     <published>2024-08-15T10:08:05.000Z</published>
-    <updated>2024-08-15T10:20:52.334Z</updated>
+    <updated>2024-08-15T10:15:40.003Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="“B”-”A”-”D”-”C”-Problem"><a href="#“B”-”A”-”D”-”C”-Problem" class="headerlink" title="“B”+”A”+”D”+”C” Problem"></a>“B”+”A”+”D”+”C” Problem</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>“B”+”A”+”D”+”C”</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，A,B,C,D</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“B”+”A”+”D”+”C”</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1 2 3 4</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2143</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>int</p><h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b,c,d;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c&gt;&gt;d;</span><br><span class="line">    cout&lt;&lt;b&lt;&lt;a&lt;&lt;d&lt;&lt;c;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="“B”-”D”-”A”-”C”-Problem"><a href="#“B”-”D”-”A”-”C”-Problem" class="headerlink" title="“B”+”D”+”A”+”C” Problem"></a>“B”+”D”+”A”+”C” Problem</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>“B”+”D”+”A”+”C”</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，A,B,C,D</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“B”+”D”+”A”+”C”</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1 2 3 4</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2413</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>int</p><h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b,c,d;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c&gt;&gt;d;</span><br><span class="line">    cout&lt;&lt;b&lt;&lt;d&lt;&lt;a&lt;&lt;c;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;“B”-”A”-”D”-”C”-Problem&quot;&gt;&lt;a href=&quot;#“B”-”A”-”D”-”C”-Problem&quot; class=&quot;headerlink&quot; title=&quot;“B”+”A”+”D”+”C” Problem&quot;&gt;&lt;/a&gt;“B”+”A”+”D”+”C” P</summary>
+    <summary type="html">&lt;h1 id=&quot;“B”-”D”-”A”-”C”-Problem&quot;&gt;&lt;a href=&quot;#“B”-”D”-”A”-”C”-Problem&quot; class=&quot;headerlink&quot; title=&quot;“B”+”D”+”A”+”C” Problem&quot;&gt;&lt;/a&gt;“B”+”D”+”A”+”C” P</summary>
       
     
     
@@ -199,6 +199,58 @@
   </entry>
   
   <entry>
+    <title>Note.ms--题解</title>
+    <link href="http://example.com/2024/08/12/Note.ms--%E9%A2%98%E8%A7%A3/"/>
+    <id>http://example.com/2024/08/12/Note.ms--%E9%A2%98%E8%A7%A3/</id>
+    <published>2024-08-12T10:38:06.000Z</published>
+    <updated>2024-08-15T10:31:16.617Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Note-ms"><a href="#Note-ms" class="headerlink" title="Note.ms"></a>Note.ms</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p><a href="https://note.ms/">Note.ms</a>是几乎没有规矩的，于是有人提出要让<a href="https://note.ms/">Note.ms</a>中存储的内容前面加上”Text:”，那个人让你帮助他写一个在字符串前面加上”Text”<br>的程序</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输入一个字符串string，输出”Text:”+string</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一个字符串string</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“Text:”+string</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">123</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Text:123</span><br></pre></td></tr></table></figure><h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h2><h3 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">None</span><br></pre></td></tr></table></figure><h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Text:None</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>|string|&lt;&#x3D;10000</p><h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    string str;</span><br><span class="line">    cin&gt;&gt;str;</span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;Text:&quot;</span>&lt;&lt;str;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Note-ms&quot;&gt;&lt;a href=&quot;#Note-ms&quot; class=&quot;headerlink&quot; title=&quot;Note.ms&quot;&gt;&lt;/a&gt;Note.ms&lt;/h1&gt;&lt;h2 id=&quot;题目背景&quot;&gt;&lt;a href=&quot;#题目背景&quot; class=&quot;headerlink&quot; titl</summary>
+      
+    
+    
+    
+    <category term="洛谷题解" scheme="http://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Size--题解</title>
+    <link href="http://example.com/2024/08/12/Size--%E9%A2%98%E8%A7%A3/"/>
+    <id>http://example.com/2024/08/12/Size--%E9%A2%98%E8%A7%A3/</id>
+    <published>2024-08-12T10:38:06.000Z</published>
+    <updated>2024-08-15T10:29:57.505Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Size"><a href="#Size" class="headerlink" title="Size"></a>Size</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>由于有些字符串太长了，所以小明想知道字符串的长度</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输入一个字符串，输出它的长度</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一个字符串string</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>string的长度</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">asdasdasdasdasd</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">15</span><br></pre></td></tr></table></figure><h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h2><h3 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">abbbbdhajs</span><br></pre></td></tr></table></figure><h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">10</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>|string|&lt;&#x3D;10000</p><h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    string str;</span><br><span class="line">    cin&gt;&gt;str;</span><br><span class="line">    cout&lt;&lt;str.<span class="built_in">size</span>();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Size&quot;&gt;&lt;a href=&quot;#Size&quot; class=&quot;headerlink&quot; title=&quot;Size&quot;&gt;&lt;/a&gt;Size&lt;/h1&gt;&lt;h2 id=&quot;题目背景&quot;&gt;&lt;a href=&quot;#题目背景&quot; class=&quot;headerlink&quot; title=&quot;题目背景&quot;&gt;&lt;/a</summary>
+      
+    
+    
+    
+    <category term="洛谷题解" scheme="http://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Start--题解</title>
     <link href="http://example.com/2024/08/12/Start--%E9%A2%98%E8%A7%A3/"/>
     <id>http://example.com/2024/08/12/Start--%E9%A2%98%E8%A7%A3/</id>
@@ -211,58 +263,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;Start&quot;&gt;&lt;a href=&quot;#Start&quot; class=&quot;headerlink&quot; title=&quot;Start&quot;&gt;&lt;/a&gt;Start&lt;/h1&gt;&lt;h2 id=&quot;题目背景&quot;&gt;&lt;a href=&quot;#题目背景&quot; class=&quot;headerlink&quot; title=&quot;题目背景&quot;</summary>
-      
-    
-    
-    
-    <category term="洛谷题解" scheme="http://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
-    
-    
-    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Taskkill--题解</title>
-    <link href="http://example.com/2024/08/12/Taskkill--%E9%A2%98%E8%A7%A3/"/>
-    <id>http://example.com/2024/08/12/Taskkill--%E9%A2%98%E8%A7%A3/</id>
-    <published>2024-08-12T10:38:06.000Z</published>
-    <updated>2024-08-15T10:25:46.407Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Taskkill"><a href="#Taskkill" class="headerlink" title="Taskkill"></a>Taskkill</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>某个同学发现有一个软件很烦，想要把他关掉</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输入一个软件的名字，输出能把它关掉的cmd命令</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一个字符串string</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“taskkill &#x2F;F &#x2F;IM”+string+”.exe”</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">explorer</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">taskkill /F /IM explorer.exe</span><br></pre></td></tr></table></figure><h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h2><h3 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">shutdown</span><br></pre></td></tr></table></figure><h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">taskkill /F /IM shutdown.exe</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>|string|&lt;&#x3D;10000</p><h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    string str;</span><br><span class="line">    cin&gt;&gt;str;</span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;taskkill /F /IM &quot;</span>&lt;&lt;str&lt;&lt;<span class="string">&quot;.exe&quot;</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;Taskkill&quot;&gt;&lt;a href=&quot;#Taskkill&quot; class=&quot;headerlink&quot; title=&quot;Taskkill&quot;&gt;&lt;/a&gt;Taskkill&lt;/h1&gt;&lt;h2 id=&quot;题目背景&quot;&gt;&lt;a href=&quot;#题目背景&quot; class=&quot;headerlink&quot; </summary>
-      
-    
-    
-    
-    <category term="洛谷题解" scheme="http://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
-    
-    
-    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>User--题解</title>
-    <link href="http://example.com/2024/08/12/User--%E9%A2%98%E8%A7%A3/"/>
-    <id>http://example.com/2024/08/12/User--%E9%A2%98%E8%A7%A3/</id>
-    <published>2024-08-12T10:38:06.000Z</published>
-    <updated>2024-08-15T10:24:35.264Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="User"><a href="#User" class="headerlink" title="User"></a>User</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>一个网站的管理员希望在管理页面显示所有用户的用户信息</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输出一个用户的用户信息</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>两个字符串，Username和Password</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“Username:”+Username<br>“Password:”+Password</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YiMu0ZrVxy&gt;eKWhlG5:LL:F2Bvx1d_TL4L0.otIduYp0YJs;0hHRLEvrTiyrkLhe&gt;a?4dkenpAW0&lt;?K6PgYbgj:SK_zj:yOBPRAo YiMu0ZrVxy&gt;eKWhlG5:LL:F2Bvx1d_TL4L0.otIduYp0YJs;0hHRLEvrTiyrkLhe&gt;a?4d</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Username:YiMu0ZrVxy&gt;eKWhlG5:LL:F2Bvx1d_TL4L0.otIduYp0YJs;0hHRLEvrTiyrkLhe&gt;a?4dkenpAW0&lt;?K6PgYbgj:SK_zj:yOBPRAo</span><br><span class="line">Password:YiMu0ZrVxy&gt;eKWhlG5:LL:F2Bvx1d_TL4L0.otIduYp0YJs;0hHRLEvrTiyrkLhe&gt;a?4d</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>|Username|、|Password|&lt;&#x3D;10005</p><h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    string a,b;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b;</span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;Username:&quot;</span>&lt;&lt;a&lt;&lt;endl&lt;&lt;<span class="string">&quot;Password:&quot;</span>&lt;&lt;b;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;User&quot;&gt;&lt;a href=&quot;#User&quot; class=&quot;headerlink&quot; title=&quot;User&quot;&gt;&lt;/a&gt;User&lt;/h1&gt;&lt;h2 id=&quot;题目背景&quot;&gt;&lt;a href=&quot;#题目背景&quot; class=&quot;headerlink&quot; title=&quot;题目背景&quot;&gt;&lt;/a</summary>
       
     
     
