@@ -20,15 +20,15 @@
   <link rel="preload" href="/css/fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
   <link rel="preload" href="/css/fonts/Roboto-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
-  <meta name="description" content="3个数的平均值题目背景无 题目描述输出三个数的平均值 输入格式一行，三个整数x,y,z 输出格式x,y,z的平均数，保留两位小数 样例 #1样例输入 #111 2 3  样例输出 #112.00  样例 #2样例输入 #219 1 7  样例输出 #215.67  提示12345678910111213本题使用&#96;&#96;&#96;Special Judge&#96;&#96;&#96;评测，输出与标准答案的差&lt;&#x3D;0.01算通过#">
+  <meta name="description" content="3个数的平均值题目背景无 题目描述输出三个数的平均值 输入格式一行，三个整数x,y,z 输出格式x,y,z的平均数，保留两位小数 样例 #1样例输入 #111 2 3  样例输出 #112.00  样例 #2样例输入 #219 1 7  样例输出 #215.67  提示INT_MIN&lt;&#x3D;x+y+z&lt;&#x3D;INT_NAX 本题使用Special Judge评测，输出与标准">
 <meta property="og:type" content="article">
 <meta property="og:title" content="3个数的平均值--题解">
 <meta property="og:url" content="http://example.com/2024/08/12/3%E4%B8%AA%E6%95%B0%E7%9A%84%E5%B9%B3%E5%9D%87%E5%80%BC-%E9%A2%98%E8%A7%A3/index.html">
 <meta property="og:site_name" content="YangRenRui&#39;s Blog">
-<meta property="og:description" content="3个数的平均值题目背景无 题目描述输出三个数的平均值 输入格式一行，三个整数x,y,z 输出格式x,y,z的平均数，保留两位小数 样例 #1样例输入 #111 2 3  样例输出 #112.00  样例 #2样例输入 #219 1 7  样例输出 #215.67  提示12345678910111213本题使用&#96;&#96;&#96;Special Judge&#96;&#96;&#96;评测，输出与标准答案的差&lt;&#x3D;0.01算通过#">
+<meta property="og:description" content="3个数的平均值题目背景无 题目描述输出三个数的平均值 输入格式一行，三个整数x,y,z 输出格式x,y,z的平均数，保留两位小数 样例 #1样例输入 #111 2 3  样例输出 #112.00  样例 #2样例输入 #219 1 7  样例输出 #215.67  提示INT_MIN&lt;&#x3D;x+y+z&lt;&#x3D;INT_NAX 本题使用Special Judge评测，输出与标准">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-08-12T10:40:28.000Z">
-<meta property="article:modified_time" content="2024-08-12T10:41:24.077Z">
+<meta property="article:modified_time" content="2024-08-15T10:04:56.780Z">
 <meta property="article:author" content="YangRenRui">
 <meta property="article:tag" content="洛谷">
 <meta property="article:tag" content="题解">
@@ -217,7 +217,7 @@
   
           </div>
           <div class="wordcount need-seperator meta-info">
-            344 词 
+            365 词 
           </div>
         </div>
         
@@ -238,7 +238,9 @@
 
 <h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">5.67</span><br></pre></td></tr></table></figure>
 
-<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">本题使用```Special Judge```评测，输出与标准答案的差&lt;=0.01算通过</span><br><span class="line"></span><br><span class="line">## Code</span><br><span class="line"></span><br><span class="line">```cpp</span><br><span class="line">#include&lt;bits/stdc++.h&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">int main()&#123;</span><br><span class="line">    int a,b,c;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;</span><br><span class="line">    printf(&quot;%.2lf&quot;,1.0*(a+b+c)/3);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p><code>INT_MIN</code>&lt;&#x3D;x+y+z&lt;&#x3D;<code>INT_NAX</code></p>
+<p>本题使用<code>Special Judge</code>评测，输出与标准答案的差&lt;&#x3D;0.01算通过</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b,c;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%.2lf&quot;</span>,<span class="number">1.0</span>*(a+b+c)/<span class="number">3</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
         
       </div>
