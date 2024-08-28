@@ -3437,6 +3437,27 @@ html.is-animating .scroll-progress-bar {
   display: flex;
   align-items: center;
 }
+.navbar-container .navbar-content .left .logo-image {
+  width: 34px;
+  height: 34px;
+  margin-right: 12px;
+}
+@media (max-width: 768px) {
+  .navbar-container .navbar-content .left .logo-image {
+    width: 30.6px;
+    height: 30.6px;
+  }
+}
+@media (max-width: 640px) {
+  .navbar-container .navbar-content .left .logo-image {
+    width: 27.200000000000003px;
+    height: 27.200000000000003px;
+  }
+}
+.navbar-container .navbar-content .left .logo-image img {
+  border-radius: 6px;
+  width: 100%;
+}
 .navbar-container .navbar-content .left .logo-title {
   font-size: 1.7rem;
   font-weight: 520;
