@@ -100,7 +100,119 @@
     
     
     
-<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="YangRenRui's Blog" type="application/atom+xml">
+<meta name="generator" content="Hexo 7.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style><link rel="alternate" href="/atom.xml" title="YangRenRui's Blog" type="application/atom+xml">
 </head>
 
 
@@ -624,20 +736,20 @@
                 
                 <div class="flex flex-col gap-5 px-7 pb-7 pt-7">
                     <h3 class="home-article-title">
-                        <a href="/2024/08/15/B+A+D+C%20Problem--%E9%A2%98%E8%A7%A3/">
-                            &#34;B&#34;+&#34;A&#34;+&#34;D&#34;+&#34;C&#34; Problem--题解
+                        <a href="/2024/08/15/B+C+A+D%20Problem--%E9%A2%98%E8%A7%A3/">
+                            &#34;B&#34;+&#34;C&#34;+&#34;A&#34;+&#34;D&#34; Problem--题解
                         </a>
                     </h3>
 
                     <div class="home-article-content markdown-body">
                         
-                            “B”+”A”+”D”+”C” Problem题目背景无
-题目描述“B”+”A”+”D”+”C”
+                            “B”+”C”+”A”+”D” Problem题目背景无
+题目描述“B”+”C”+”A”+”D”
 输入格式一行，A,B,C,D
-输出格式“B”+”A”+”D”+”C”
+输出格式“B”+”C”+”A”+”D”
 样例 #1样例输入 #111 2 3 4
 
-样例输出 #112143
+样例输出 #112314
 
 提示int...
                         
@@ -689,7 +801,7 @@
         
     </div>
 
-    <a href="/2024/08/15/B+A+D+C%20Problem--%E9%A2%98%E8%A7%A3/">阅读全文<span class="seo-reader-text">&#34;B&#34;+&#34;A&#34;+&#34;D&#34;+&#34;C&#34; Problem--题解</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+    <a href="/2024/08/15/B+C+A+D%20Problem--%E9%A2%98%E8%A7%A3/">阅读全文<span class="seo-reader-text">&#34;B&#34;+&#34;C&#34;+&#34;A&#34;+&#34;D&#34; Problem--题解</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
 </div>
 
                 </div>
@@ -1036,10 +1148,12 @@
                             Doskey题目背景某人喜欢装逼，不想用正常的方式执行命令
 题目描述用doskey执行命令
 输入格式一个字符串s
-输出格式“doskey hello&#x3D;”+s
+输出格式“doskey hello=”+s
 样例 #1样例输入 #11345
 
-样例输出 #11doskey hello=34...
+样例输出 #11doskey hello=345
+
+提示...
                         
                     </div>
 
@@ -1266,84 +1380,6 @@
                 
                 <div class="flex flex-col gap-5 px-7 pb-7 pt-7">
                     <h3 class="home-article-title">
-                        <a href="/2024/08/12/Ipconfig--%E9%A2%98%E8%A7%A3/">
-                            Ipconfig--题解
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            Ipconfig题目背景有个人想要给ipconfig加上新的参数
-题目描述输出新的参数的cmd命令
-输入格式一个字符串string
-输出格式“ipconfig &#x2F;“+string
-样例 #1样例输入 #11123123123
-
-样例输出 #...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Mon Aug 12 2024 18:38:06 GMT+0800">
-                
-                    2024-08-12
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/">洛谷题解</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/tags/%E6%B4%9B%E8%B0%B7/">洛谷</a>&nbsp;
-                        </li>
-                    
-                        <li>
-                            | 
-                            <a href="/tags/%E9%A2%98%E8%A7%A3/">题解</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/2024/08/12/Ipconfig--%E9%A2%98%E8%A7%A3/">阅读全文<span class="seo-reader-text">Ipconfig--题解</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-7">
-                    <h3 class="home-article-title">
                         <a href="/2024/08/12/Import--%E9%A2%98%E8%A7%A3/">
                             Import--题解
                         </a>
@@ -1412,6 +1448,84 @@
     </div>
 
     <a href="/2024/08/12/Import--%E9%A2%98%E8%A7%A3/">阅读全文<span class="seo-reader-text">Import--题解</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+
+                
+                <div class="flex flex-col gap-5 px-7 pb-7 pt-7">
+                    <h3 class="home-article-title">
+                        <a href="/2024/08/12/Ipconfig--%E9%A2%98%E8%A7%A3/">
+                            Ipconfig--题解
+                        </a>
+                    </h3>
+
+                    <div class="home-article-content markdown-body">
+                        
+                            Ipconfig题目背景有个人想要给ipconfig加上新的参数
+题目描述输出新的参数的cmd命令
+输入格式一个字符串string
+输出格式“ipconfig /“+string
+样例 #1样例输入 #11123123123
+
+样例输出 #11ipc...
+                        
+                    </div>
+
+                    <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Mon Aug 12 2024 18:38:06 GMT+0800">
+                
+                    2024-08-12
+                
+            </span>
+        </span>
+        
+            <span class="home-article-category">
+                <i class="fa-solid fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/">洛谷题解</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+        
+        
+            <span class="home-article-tag">
+                <i class="fa-solid fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/%E6%B4%9B%E8%B0%B7/">洛谷</a>&nbsp;
+                        </li>
+                    
+                        <li>
+                            | 
+                            <a href="/tags/%E9%A2%98%E8%A7%A3/">题解</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
+        
+    </div>
+
+    <a href="/2024/08/12/Ipconfig--%E9%A2%98%E8%A7%A3/">阅读全文<span class="seo-reader-text">Ipconfig--题解</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
 </div>
 
                 </div>

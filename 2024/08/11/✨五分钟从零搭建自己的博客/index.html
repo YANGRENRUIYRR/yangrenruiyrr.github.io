@@ -108,7 +108,119 @@
     
     
     
-<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="YangRenRui's Blog" type="application/atom+xml">
+<meta name="generator" content="Hexo 7.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style><link rel="alternate" href="/atom.xml" title="YangRenRui's Blog" type="application/atom+xml">
 </head>
 
 
@@ -589,8 +701,8 @@
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
             <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在CSDN，我们可以看见许多篇博客，但是有时候又有长度要求。于是，今天小编就教你 <strong>不用代码</strong> ，五分钟搭建一个属于自己的个人博客。</p>
-<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>作者：@<a class="link"   target="_blank" rel="noopener" href="https://github.com/hexojs/" >Hexojs <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>仓库：<a class="link"   target="_blank" rel="noopener" href="https://github.com/hexojs/hexo" >https://github.com/hexojs/hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>文档：<a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/" >https://hexo.io/zh-cn/docs/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h2 id="前置要求"><a href="#前置要求" class="headerlink" title="前置要求"></a>前置要求</h2><p>在电脑上装有npm，没有可以<a class="link"   target="_blank" rel="noopener" href="https://nodejs.org/en/download/prebuilt-installer" >安装 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>在电脑上装有git，没有可以<a class="link"   target="_blank" rel="noopener" href="https://git-scm.com/downloads" >安装 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>当前可以连接<a class="link"   target="_blank" rel="noopener" href="https://github.com/" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>作者：@<a class="link" target="_blank" rel="noopener" href="https://github.com/hexojs/">Hexojs <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>仓库：<a class="link" target="_blank" rel="noopener" href="https://github.com/hexojs/hexo">https://github.com/hexojs/hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>文档：<a class="link" target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h2 id="前置要求"><a href="#前置要求" class="headerlink" title="前置要求"></a>前置要求</h2><p>在电脑上装有npm，没有可以<a class="link" target="_blank" rel="noopener" href="https://nodejs.org/en/download/prebuilt-installer">安装 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>在电脑上装有git，没有可以<a class="link" target="_blank" rel="noopener" href="https://git-scm.com/downloads">安装 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>当前可以连接<a class="link" target="_blank" rel="noopener" href="https://github.com/">GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <h2 id="安装Hexo-Cli"><a href="#安装Hexo-Cli" class="headerlink" title="安装Hexo-Cli"></a>安装Hexo-Cli</h2><p>在以管理员权限运行的cmd中运行</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure></div>
 <h2 id="初始化Hexo"><a href="#初始化Hexo" class="headerlink" title="初始化Hexo"></a>初始化Hexo</h2><p>在以管理员权限运行的cmd中运行</p>
@@ -598,7 +710,7 @@
 <p>在这个时候，你已经可以用</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></div>
 <p>运行你的博客了</p>
-<h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><p>hexo提供了很多主题，可以在<a class="link"   target="_blank" rel="noopener" href="https://hexo.io/themes/" >https://hexo.io/themes/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>查看，点击主题的名字，即可跳转到Github，照<code>README.MD</code>操作即可</p>
+<h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><p>hexo提供了很多主题，可以在<a class="link" target="_blank" rel="noopener" href="https://hexo.io/themes/">https://hexo.io/themes/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>查看，点击主题的名字，即可跳转到Github，照<code>README.MD</code>操作即可</p>
 <h2 id="替换主题"><a href="#替换主题" class="headerlink" title="替换主题"></a>替换主题</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo config theme 你的主题名字</span><br></pre></td></tr></table></figure></div>
 <h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>本篇博客就这样结束了，剩下的功能可以自行探索</p>
 
