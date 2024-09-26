@@ -1447,57 +1447,57 @@ button {
   --mermaid-theme: '';
 }
 :root {
-  --code-foreground: #3b4143;
-  --code-background: #f2f2f2;
-  --highlight-background: #fafafa;
-  --highlight-foreground: #3b4143;
+  --inline-code-foreground: #24292e;
+  --inline-code-background: #f1f1f1;
+  --highlight-background: #fdfdfd;
+  --highlight-foreground: #24292e;
   --highlight-keyword: #d73a49;
-  --highlight-link: #d73a49;
-  --highlight-built-in: #6f42c1;
+  --highlight-link: #d73a49 /* Following the pattern, link should have the same color as keyword */;
+  --highlight-built-in: #e36209;
   --highlight-number: #005cc5;
   --highlight-string: #032f62;
-  --highlight-regexp: #e36209;
+  --highlight-regexp: #032f62;
   --highlight-subst: #24292e;
   --highlight-comment: #6a737d;
-  --highlight-doctag: #22863a;
-  --highlight-meta: $highlight-meta;
+  --highlight-doctag: #d73a49;
+  --highlight-meta: #005cc5 /* Mapped based on the pattern for constant */;
   --highlight-variable: #005cc5;
-  --highlight-attr: #22863a;
-  --highlight-section: $highlight-section;
-  --highlight-bullet: #6f42c1;
-  --highlight-addition: #abe338;
-  --highlight-deletion: #ffa07a;
+  --highlight-attr: #005cc5;
+  --highlight-section: #005cc5;
+  --highlight-bullet: #735c0f;
+  --highlight-addition: #22863a;
+  --highlight-deletion: #b31d28;
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --code-foreground: #3b4143;
-    --code-background: #f2f2f2;
-    --highlight-background: #fafafa;
-    --highlight-foreground: #3b4143;
+    --inline-code-foreground: #24292e;
+    --inline-code-background: #f1f1f1;
+    --highlight-background: #fdfdfd;
+    --highlight-foreground: #24292e;
     --highlight-keyword: #d73a49;
-    --highlight-link: #d73a49;
-    --highlight-built-in: #6f42c1;
+    --highlight-link: #d73a49 /* Following the pattern, link should have the same color as keyword */;
+    --highlight-built-in: #e36209;
     --highlight-number: #005cc5;
     --highlight-string: #032f62;
-    --highlight-regexp: #e36209;
+    --highlight-regexp: #032f62;
     --highlight-subst: #24292e;
     --highlight-comment: #6a737d;
-    --highlight-doctag: #22863a;
-    --highlight-meta: $highlight-meta;
+    --highlight-doctag: #d73a49;
+    --highlight-meta: #005cc5 /* Mapped based on the pattern for constant */;
     --highlight-variable: #005cc5;
-    --highlight-attr: #22863a;
-    --highlight-section: $highlight-section;
-    --highlight-bullet: #6f42c1;
-    --highlight-addition: #abe338;
-    --highlight-deletion: #ffa07a;
+    --highlight-attr: #005cc5;
+    --highlight-section: #005cc5;
+    --highlight-bullet: #735c0f;
+    --highlight-addition: #22863a;
+    --highlight-deletion: #b31d28;
   }
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --code-foreground: #bfbfc7;
-    --code-background: #35363b;
-    --highlight-background: #21252b;
-    --highlight-foreground: #bfbfc7;
+    --inline-code-foreground: #c9d1d9;
+    --inline-code-background: #313131;
+    --highlight-background: #1e1e1e;
+    --highlight-foreground: #dcdcdc;
     --highlight-keyword: #569cd6;
     --highlight-link: #569cd6;
     --highlight-built-in: #4ec9b0;
@@ -1517,32 +1517,32 @@ button {
   }
 }
 .light-mode {
-  --code-foreground: #3b4143;
-  --code-background: #f2f2f2;
-  --highlight-background: #fafafa;
-  --highlight-foreground: #3b4143;
+  --inline-code-foreground: #24292e;
+  --inline-code-background: #f1f1f1;
+  --highlight-background: #fdfdfd;
+  --highlight-foreground: #24292e;
   --highlight-keyword: #d73a49;
-  --highlight-link: #d73a49;
-  --highlight-built-in: #6f42c1;
+  --highlight-link: #d73a49 /* Following the pattern, link should have the same color as keyword */;
+  --highlight-built-in: #e36209;
   --highlight-number: #005cc5;
   --highlight-string: #032f62;
-  --highlight-regexp: #e36209;
+  --highlight-regexp: #032f62;
   --highlight-subst: #24292e;
   --highlight-comment: #6a737d;
-  --highlight-doctag: #22863a;
-  --highlight-meta: $highlight-meta;
+  --highlight-doctag: #d73a49;
+  --highlight-meta: #005cc5 /* Mapped based on the pattern for constant */;
   --highlight-variable: #005cc5;
-  --highlight-attr: #22863a;
-  --highlight-section: $highlight-section;
-  --highlight-bullet: #6f42c1;
-  --highlight-addition: #abe338;
-  --highlight-deletion: #ffa07a;
+  --highlight-attr: #005cc5;
+  --highlight-section: #005cc5;
+  --highlight-bullet: #735c0f;
+  --highlight-addition: #22863a;
+  --highlight-deletion: #b31d28;
 }
 .dark-mode {
-  --code-foreground: #bfbfc7;
-  --code-background: #35363b;
-  --highlight-background: #21252b;
-  --highlight-foreground: #bfbfc7;
+  --inline-code-foreground: #c9d1d9;
+  --inline-code-background: #313131;
+  --highlight-background: #1e1e1e;
+  --highlight-foreground: #dcdcdc;
   --highlight-keyword: #569cd6;
   --highlight-link: #569cd6;
   --highlight-built-in: #4ec9b0;
@@ -1587,9 +1587,11 @@ code {
   padding: 3px 4px;
   word-wrap: break-word;
   border-radius: 4px;
-  font-size: 0.875rem !important;
-  color: var(--code-foreground);
-  background: var(--code-background);
+  color: var(--inline-code-foreground);
+  background: var(--inline-code-background);
+}
+.main-content code {
+  font-size: 0.9em;
 }
 pre {
   font-size: 0.9rem !important;
@@ -2120,57 +2122,57 @@ pre .deletion {
   --mermaid-theme: '';
 }
 :root {
-  --code-foreground: #3b4143;
-  --code-background: #f2f2f2;
-  --highlight-background: #fafafa;
-  --highlight-foreground: #3b4143;
+  --inline-code-foreground: #24292e;
+  --inline-code-background: #f1f1f1;
+  --highlight-background: #fdfdfd;
+  --highlight-foreground: #24292e;
   --highlight-keyword: #d73a49;
-  --highlight-link: #d73a49;
-  --highlight-built-in: #6f42c1;
+  --highlight-link: #d73a49 /* Following the pattern, link should have the same color as keyword */;
+  --highlight-built-in: #e36209;
   --highlight-number: #005cc5;
   --highlight-string: #032f62;
-  --highlight-regexp: #e36209;
+  --highlight-regexp: #032f62;
   --highlight-subst: #24292e;
   --highlight-comment: #6a737d;
-  --highlight-doctag: #22863a;
-  --highlight-meta: $highlight-meta;
+  --highlight-doctag: #d73a49;
+  --highlight-meta: #005cc5 /* Mapped based on the pattern for constant */;
   --highlight-variable: #005cc5;
-  --highlight-attr: #22863a;
-  --highlight-section: $highlight-section;
-  --highlight-bullet: #6f42c1;
-  --highlight-addition: #abe338;
-  --highlight-deletion: #ffa07a;
+  --highlight-attr: #005cc5;
+  --highlight-section: #005cc5;
+  --highlight-bullet: #735c0f;
+  --highlight-addition: #22863a;
+  --highlight-deletion: #b31d28;
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --code-foreground: #3b4143;
-    --code-background: #f2f2f2;
-    --highlight-background: #fafafa;
-    --highlight-foreground: #3b4143;
+    --inline-code-foreground: #24292e;
+    --inline-code-background: #f1f1f1;
+    --highlight-background: #fdfdfd;
+    --highlight-foreground: #24292e;
     --highlight-keyword: #d73a49;
-    --highlight-link: #d73a49;
-    --highlight-built-in: #6f42c1;
+    --highlight-link: #d73a49 /* Following the pattern, link should have the same color as keyword */;
+    --highlight-built-in: #e36209;
     --highlight-number: #005cc5;
     --highlight-string: #032f62;
-    --highlight-regexp: #e36209;
+    --highlight-regexp: #032f62;
     --highlight-subst: #24292e;
     --highlight-comment: #6a737d;
-    --highlight-doctag: #22863a;
-    --highlight-meta: $highlight-meta;
+    --highlight-doctag: #d73a49;
+    --highlight-meta: #005cc5 /* Mapped based on the pattern for constant */;
     --highlight-variable: #005cc5;
-    --highlight-attr: #22863a;
-    --highlight-section: $highlight-section;
-    --highlight-bullet: #6f42c1;
-    --highlight-addition: #abe338;
-    --highlight-deletion: #ffa07a;
+    --highlight-attr: #005cc5;
+    --highlight-section: #005cc5;
+    --highlight-bullet: #735c0f;
+    --highlight-addition: #22863a;
+    --highlight-deletion: #b31d28;
   }
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --code-foreground: #bfbfc7;
-    --code-background: #35363b;
-    --highlight-background: #21252b;
-    --highlight-foreground: #bfbfc7;
+    --inline-code-foreground: #c9d1d9;
+    --inline-code-background: #313131;
+    --highlight-background: #1e1e1e;
+    --highlight-foreground: #dcdcdc;
     --highlight-keyword: #569cd6;
     --highlight-link: #569cd6;
     --highlight-built-in: #4ec9b0;
@@ -2190,32 +2192,32 @@ pre .deletion {
   }
 }
 .light-mode {
-  --code-foreground: #3b4143;
-  --code-background: #f2f2f2;
-  --highlight-background: #fafafa;
-  --highlight-foreground: #3b4143;
+  --inline-code-foreground: #24292e;
+  --inline-code-background: #f1f1f1;
+  --highlight-background: #fdfdfd;
+  --highlight-foreground: #24292e;
   --highlight-keyword: #d73a49;
-  --highlight-link: #d73a49;
-  --highlight-built-in: #6f42c1;
+  --highlight-link: #d73a49 /* Following the pattern, link should have the same color as keyword */;
+  --highlight-built-in: #e36209;
   --highlight-number: #005cc5;
   --highlight-string: #032f62;
-  --highlight-regexp: #e36209;
+  --highlight-regexp: #032f62;
   --highlight-subst: #24292e;
   --highlight-comment: #6a737d;
-  --highlight-doctag: #22863a;
-  --highlight-meta: $highlight-meta;
+  --highlight-doctag: #d73a49;
+  --highlight-meta: #005cc5 /* Mapped based on the pattern for constant */;
   --highlight-variable: #005cc5;
-  --highlight-attr: #22863a;
-  --highlight-section: $highlight-section;
-  --highlight-bullet: #6f42c1;
-  --highlight-addition: #abe338;
-  --highlight-deletion: #ffa07a;
+  --highlight-attr: #005cc5;
+  --highlight-section: #005cc5;
+  --highlight-bullet: #735c0f;
+  --highlight-addition: #22863a;
+  --highlight-deletion: #b31d28;
 }
 .dark-mode {
-  --code-foreground: #bfbfc7;
-  --code-background: #35363b;
-  --highlight-background: #21252b;
-  --highlight-foreground: #bfbfc7;
+  --inline-code-foreground: #c9d1d9;
+  --inline-code-background: #313131;
+  --highlight-background: #1e1e1e;
+  --highlight-foreground: #dcdcdc;
   --highlight-keyword: #569cd6;
   --highlight-link: #569cd6;
   --highlight-built-in: #4ec9b0;
@@ -4118,12 +4120,12 @@ html.is-animating .scroll-progress-bar {
   color: var(--third-text-color);
 }
 .archive-list-container .article-item::after {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   display: block;
-  top: 1em;
+  top: 20px;
   position: absolute;
-  left: -6px;
+  left: -7px;
   border-radius: 10px;
   content: '';
   border: 2px solid var(--third-text-color);
@@ -4135,17 +4137,16 @@ html.is-animating .scroll-progress-bar {
 }
 .archive-list-container .article-item span.article-title {
   position: relative;
-  padding-left: 15px;
   display: block;
 }
 .archive-list-container .article-item span.article-title::after {
   content: "";
   width: 7px;
   height: 7px;
-  background: var(--background-color);
-  border: 2px solid var(--third-text-color);
+  background: var(--fourth-text-color);
+  border: 1px solid var(--border-color);
   position: absolute;
-  left: 0;
+  left: -1.79rem;
   top: 0.5em;
   border-radius: 50px;
 }
