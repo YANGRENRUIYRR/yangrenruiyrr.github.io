@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-09-18T10:59:38.142Z</updated>
+  <updated>2024-09-29T11:57:55.438Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于会员</title>
+    <link href="http://example.com/2024/09/29/%E5%85%B3%E4%BA%8E%E4%BC%9A%E5%91%98/"/>
+    <id>http://example.com/2024/09/29/%E5%85%B3%E4%BA%8E%E4%BC%9A%E5%91%98/</id>
+    <published>2024-09-29T11:54:00.000Z</published>
+    <updated>2024-09-29T11:57:55.438Z</updated>
+    
+    <content type="html"><![CDATA[<p>ToDo</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;ToDo&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="会员" scheme="http://example.com/categories/%E4%BC%9A%E5%91%98/"/>
+    
+    
+    <category term="会员文档" scheme="http://example.com/tags/%E4%BC%9A%E5%91%98%E6%96%87%E6%A1%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>题解：P10892 SDOI2024</title>
@@ -233,33 +258,6 @@
     <updated>2024-08-24T13:17:56.451Z</updated>
     
     <content type="html"><![CDATA[<p>本题的代码由z_z_b_提供</p><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">namespace</span> io{</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="type">int</span> <span class="title">read</span><span class="params">()</span></span>{<span class="type">int</span> x=<span class="number">0</span>,w=<span class="number">0</span>;<span class="type">char</span> c=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(c))w|=c==<span class="string">'-'</span>,c=<span class="built_in">getchar</span>();<span class="keyword">while</span>(<span class="built_in">isdigit</span>(c))x=(x&lt;&lt;<span class="number">3</span>)+(x&lt;&lt;<span class="number">1</span>)+(c^<span class="number">48</span>),c=<span class="built_in">getchar</span>();<span class="keyword">return</span> w?-x:x;}</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write</span><span class="params">(T x)</span></span>{<span class="keyword">if</span>(x&lt;<span class="number">0</span>)<span class="built_in">putchar</span>(<span class="string">'-'</span>),x=-x;<span class="keyword">if</span>(x&gt;<span class="number">9</span>)<span class="built_in">write</span>(x/<span class="number">10</span>);<span class="built_in">putchar</span>(x%<span class="number">10</span>+<span class="string">'0'</span>);}</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write_</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">' '</span>);}</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">writeln</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">'\n'</span>);}</span><br><span class="line">}<span class="comment">//快读快写</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> io;</span><br><span class="line"><span class="type">double</span> d;</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">d=<span class="built_in">read</span>();<span class="comment">//读取d</span></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%.3lf"</span>,<span class="number">1.0</span>/(d<span class="number">+1</span>));<span class="comment">//输出</span></span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;本题的代码由z_z_b_提供&lt;/p&gt;
-&lt;div class=&quot;highlight-container&quot; data-rel=&quot;Cpp&quot;&gt;&lt;figure class=&quot;iseeu highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre</summary>
-      
-    
-    
-    
-    <category term="洛谷题解" scheme="http://example.com/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
-    
-    
-    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[ 小Cの游戏 Round 3 A ] 通关秘籍</title>
-    <link href="http://example.com/2024/08/20/%E5%B0%8FC%E3%81%AE%E6%B8%B8%E6%88%8F-Round-3-A-%E9%80%9A%E5%85%B3%E7%A7%98%E7%B1%8D/"/>
-    <id>http://example.com/2024/08/20/%E5%B0%8FC%E3%81%AE%E6%B8%B8%E6%88%8F-Round-3-A-%E9%80%9A%E5%85%B3%E7%A7%98%E7%B1%8D/</id>
-    <published>2024-08-20T05:06:00.000Z</published>
-    <updated>2024-08-24T13:18:06.771Z</updated>
-    
-    <content type="html"><![CDATA[<p>本题的代码由z_z_b_提供</p><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long<span class="comment">//这是个骚操作，不过挺有用的</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">namespace</span> io{</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="type">int</span> <span class="title">read</span><span class="params">()</span></span>{<span class="type">int</span> x=<span class="number">0</span>,w=<span class="number">0</span>;<span class="type">char</span> c=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(c))w|=c==<span class="string">'-'</span>,c=<span class="built_in">getchar</span>();<span class="keyword">while</span>(<span class="built_in">isdigit</span>(c))x=(x&lt;&lt;<span class="number">3</span>)+(x&lt;&lt;<span class="number">1</span>)+(c^<span class="number">48</span>),c=<span class="built_in">getchar</span>();<span class="keyword">return</span> w?-x:x;}</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write</span><span class="params">(T x)</span></span>{<span class="keyword">if</span>(x&lt;<span class="number">0</span>)<span class="built_in">putchar</span>(<span class="string">'-'</span>),x=-x;<span class="keyword">if</span>(x&gt;<span class="number">9</span>)<span class="built_in">write</span>(x/<span class="number">10</span>);<span class="built_in">putchar</span>(x%<span class="number">10</span>+<span class="string">'0'</span>);}</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write_</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">' '</span>);}</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">writeln</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">'\n'</span>);}</span><br><span class="line">}<span class="comment">//快读、快写</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> io;</span><br><span class="line"><span class="type">int</span> a,b,c;</span><br><span class="line"><span class="type">double</span> d;</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span></span>{<span class="comment">//这是和#define int long long配套的骚操作</span></span><br><span class="line">a=<span class="built_in">read</span>();<span class="built_in">read</span>();b=<span class="built_in">read</span>();c=<span class="built_in">read</span>();<span class="comment">//读取a、b、c</span></span><br><span class="line">d=<span class="number">1.0</span>*b*b<span class="number">-4.0</span>*a*c;<span class="comment">//对应题目中的"Δ=b^2-4ac"</span></span><br><span class="line"><span class="keyword">if</span>(d&lt;<span class="number">0</span>) <span class="built_in">puts</span>(<span class="string">"NON"</span>),<span class="built_in">exit</span>(<span class="number">0</span>);<span class="comment">//对应题目中的"如果Δ&lt;0无解"</span></span><br><span class="line">d=<span class="built_in">sqrt</span>(d);<span class="comment">//算出d的平方根</span></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"x1 = %.4lf , x2 = %.4lf"</span>,(<span class="number">-1.0</span>*b+d)/(<span class="number">2.0</span>*a),(<span class="number">-1.0</span>*b-d)/(<span class="number">2.0</span>*a));<span class="comment">//对应题目中的"(-b±Δ的平方根)/(2a)"</span></span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>]]></content>
     
     
       

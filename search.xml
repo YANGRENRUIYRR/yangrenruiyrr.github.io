@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>A*B*C Problem--题解</title>
-    <url>/2024/08/12/A-B-C-Problem-%E9%A2%98%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="A-B-C-Problem"><a href="#A-B-C-Problem" class="headerlink" title="A*B*C Problem"></a>A*B*C Problem</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p>
-<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输出A*B*C</p>
-<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，三个整数A,B,C</p>
-<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>一行，A*B*C</p>
+    <title>3个数的平均值--题解</title>
+    <url>/2024/08/12/3%E4%B8%AA%E6%95%B0%E7%9A%84%E5%B9%B3%E5%9D%87%E5%80%BC-%E9%A2%98%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="3个数的平均值"><a href="#3个数的平均值" class="headerlink" title="3个数的平均值"></a>3个数的平均值</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p>
+<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输出三个数的平均值</p>
+<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，三个整数x,y,z</p>
+<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>x,y,z的平均数，保留两位小数</p>
 <h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 2 3</span><br></pre></td></tr></table></figure></div>
 
-<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">6</span><br></pre></td></tr></table></figure></div>
+<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">2.00</span><br></pre></td></tr></table></figure></div>
 
-<h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h2><h3 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">10 9 8</span><br></pre></td></tr></table></figure></div>
+<h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h2><h3 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">9 1 7</span><br></pre></td></tr></table></figure></div>
 
-<h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">720</span><br></pre></td></tr></table></figure></div>
+<h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">5.67</span><br></pre></td></tr></table></figure></div>
 
-<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p><code>INT_MIN</code>&lt;=A*B*C&lt;=<code>INT_MAX</code></p>
-<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="type">int</span> a,b,c;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;</span><br><span class="line">    cout&lt;&lt;a*b*c;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p><code>INT_MIN</code>&lt;=x+y+z&lt;=<code>INT_NAX</code></p>
+<p>本题使用<code>Special Judge</code>评测，输出与标准答案的差&lt;=0.01算通过</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="type">int</span> a,b,c;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%.2lf"</span>,<span class="number">1.0</span>*(a+b+c)/<span class="number">3</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
 ]]></content>
       <categories>
         <category>洛谷题解</category>
@@ -49,23 +50,22 @@
       </tags>
   </entry>
   <entry>
-    <title>3个数的平均值--题解</title>
-    <url>/2024/08/12/3%E4%B8%AA%E6%95%B0%E7%9A%84%E5%B9%B3%E5%9D%87%E5%80%BC-%E9%A2%98%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="3个数的平均值"><a href="#3个数的平均值" class="headerlink" title="3个数的平均值"></a>3个数的平均值</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p>
-<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输出三个数的平均值</p>
-<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，三个整数x,y,z</p>
-<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>x,y,z的平均数，保留两位小数</p>
+    <title>A*B*C Problem--题解</title>
+    <url>/2024/08/12/A-B-C-Problem-%E9%A2%98%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="A-B-C-Problem"><a href="#A-B-C-Problem" class="headerlink" title="A*B*C Problem"></a>A*B*C Problem</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p>
+<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输出A*B*C</p>
+<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，三个整数A,B,C</p>
+<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>一行，A*B*C</p>
 <h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 2 3</span><br></pre></td></tr></table></figure></div>
 
-<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">2.00</span><br></pre></td></tr></table></figure></div>
+<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">6</span><br></pre></td></tr></table></figure></div>
 
-<h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h2><h3 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">9 1 7</span><br></pre></td></tr></table></figure></div>
+<h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h2><h3 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">10 9 8</span><br></pre></td></tr></table></figure></div>
 
-<h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">5.67</span><br></pre></td></tr></table></figure></div>
+<h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">720</span><br></pre></td></tr></table></figure></div>
 
-<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p><code>INT_MIN</code>&lt;=x+y+z&lt;=<code>INT_NAX</code></p>
-<p>本题使用<code>Special Judge</code>评测，输出与标准答案的差&lt;=0.01算通过</p>
-<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="type">int</span> a,b,c;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%.2lf"</span>,<span class="number">1.0</span>*(a+b+c)/<span class="number">3</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p><code>INT_MIN</code>&lt;=A*B*C&lt;=<code>INT_MAX</code></p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="type">int</span> a,b,c;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;</span><br><span class="line">    cout&lt;&lt;a*b*c;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
 ]]></content>
       <categories>
         <category>洛谷题解</category>
@@ -142,6 +142,28 @@
       </tags>
   </entry>
   <entry>
+    <title>Doskey--题解</title>
+    <url>/2024/08/12/Doskey--%E9%A2%98%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="Doskey"><a href="#Doskey" class="headerlink" title="Doskey"></a>Doskey</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>某人喜欢装逼，不想用正常的方式执行命令</p>
+<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>用doskey执行命令</p>
+<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一个字符串s</p>
+<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“doskey hello=”+s</p>
+<h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">345</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">doskey hello=345</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>|s|&lt;=10005</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    string s;</span><br><span class="line">    cin&gt;&gt;s;</span><br><span class="line">    cout&lt;&lt;<span class="string">"doskey hello="</span>&lt;&lt;s;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>洛谷题解</category>
+      </categories>
+      <tags>
+        <tag>洛谷</tag>
+        <tag>题解</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>&quot;B&quot;+&quot;D&quot;+&quot;C&quot;+&quot;A&quot; Problem--题解</title>
     <url>/2024/08/15/B+D+C+A%20Problem--%E9%A2%98%E8%A7%A3/</url>
     <content><![CDATA[<h1 id="“B”-”D”-”C”-”A”-Problem"><a href="#“B”-”D”-”C”-”A”-Problem" class="headerlink" title="“B”+”D”+”C”+”A” Problem"></a>“B”+”D”+”C”+”A” Problem</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p>
@@ -186,18 +208,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Doskey--题解</title>
-    <url>/2024/08/12/Doskey--%E9%A2%98%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="Doskey"><a href="#Doskey" class="headerlink" title="Doskey"></a>Doskey</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>某人喜欢装逼，不想用正常的方式执行命令</p>
-<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>用doskey执行命令</p>
-<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一个字符串s</p>
-<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“doskey hello=”+s</p>
-<h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">345</span><br></pre></td></tr></table></figure></div>
+    <title>Import--题解</title>
+    <url>/2024/08/12/Import--%E9%A2%98%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="Import"><a href="#Import" class="headerlink" title="Import"></a>Import</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>导入模块</p>
+<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>导入模块</p>
+<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一个字符串str</p>
+<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“import “+str</p>
+<h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">234</span><br></pre></td></tr></table></figure></div>
 
-<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">doskey hello=345</span><br></pre></td></tr></table></figure></div>
+<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">import 234</span><br></pre></td></tr></table></figure></div>
 
-<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>|s|&lt;=10005</p>
-<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    string s;</span><br><span class="line">    cin&gt;&gt;s;</span><br><span class="line">    cout&lt;&lt;<span class="string">"doskey hello="</span>&lt;&lt;s;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+<h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h2><h3 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">this</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">import this</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>|str|&lt;=10005</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    string str;</span><br><span class="line">    cin&gt;&gt;str;</span><br><span class="line">    cout&lt;&lt;<span class="string">"import "</span>&lt;&lt;str;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
 ]]></content>
       <categories>
         <category>洛谷题解</category>
@@ -224,32 +250,6 @@
 
 <h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>|Name|&lt;=10</p>
 <h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    string a;</span><br><span class="line">    cin&gt;&gt;a;</span><br><span class="line">    cout&lt;&lt;<span class="string">"Hello,"</span>&lt;&lt;a;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>洛谷题解</category>
-      </categories>
-      <tags>
-        <tag>洛谷</tag>
-        <tag>题解</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Import--题解</title>
-    <url>/2024/08/12/Import--%E9%A2%98%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="Import"><a href="#Import" class="headerlink" title="Import"></a>Import</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>导入模块</p>
-<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>导入模块</p>
-<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一个字符串str</p>
-<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“import “+str</p>
-<h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">234</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">import 234</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h2><h3 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">this</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">import this</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>|str|&lt;=10005</p>
-<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    string str;</span><br><span class="line">    cin&gt;&gt;str;</span><br><span class="line">    cout&lt;&lt;<span class="string">"import "</span>&lt;&lt;str;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
 ]]></content>
       <categories>
         <category>洛谷题解</category>
@@ -430,6 +430,18 @@
       </tags>
   </entry>
   <entry>
+    <title>关于会员</title>
+    <url>/2024/09/29/%E5%85%B3%E4%BA%8E%E4%BC%9A%E5%91%98/</url>
+    <content><![CDATA[<p>ToDo</p>
+]]></content>
+      <categories>
+        <category>会员</category>
+      </categories>
+      <tags>
+        <tag>会员文档</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>You are Age years old--题解</title>
     <url>/2024/08/12/You-are-Age-years-old-%E9%A2%98%E8%A7%A3/</url>
     <content><![CDATA[<h1 id="You-are-Age-years-old"><a href="#You-are-Age-years-old" class="headerlink" title="You are Age years old"></a>You are Age years old</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p>
@@ -530,10 +542,10 @@
       </tags>
   </entry>
   <entry>
-    <title>[ 小Cの游戏 Round 3 D ] 店铺购物</title>
-    <url>/2024/08/20/%E5%B0%8FC%E3%81%AE%E6%B8%B8%E6%88%8F-Round-3-D-%E5%BA%97%E9%93%BA%E8%B4%AD%E7%89%A9/</url>
-    <content><![CDATA[<p>本题的代码由z_z_b_提供</p>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">namespace</span> io{</span><br><span class="line">	<span class="function"><span class="keyword">inline</span> <span class="type">int</span> <span class="title">read</span><span class="params">()</span></span>{<span class="type">int</span> x=<span class="number">0</span>,w=<span class="number">0</span>;<span class="type">char</span> c=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(c))w|=c==<span class="string">'-'</span>,c=<span class="built_in">getchar</span>();<span class="keyword">while</span>(<span class="built_in">isdigit</span>(c))x=(x&lt;&lt;<span class="number">3</span>)+(x&lt;&lt;<span class="number">1</span>)+(c^<span class="number">48</span>),c=<span class="built_in">getchar</span>();<span class="keyword">return</span> w?-x:x;}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write</span><span class="params">(T x)</span></span>{<span class="keyword">if</span>(x&lt;<span class="number">0</span>)<span class="built_in">putchar</span>(<span class="string">'-'</span>),x=-x;<span class="keyword">if</span>(x&gt;<span class="number">9</span>)<span class="built_in">write</span>(x/<span class="number">10</span>);<span class="built_in">putchar</span>(x%<span class="number">10</span>+<span class="string">'0'</span>);}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write_</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">' '</span>);}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">writeln</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">'\n'</span>);}</span><br><span class="line">}<span class="comment">//快读快写</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> io;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N=<span class="number">1e5</span><span class="number">+10</span>;</span><br><span class="line"><span class="type">int</span> a[N],ans,n,m,mx;</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">	n=<span class="built_in">read</span>(),m=<span class="built_in">read</span>();<span class="comment">//读取n、m</span></span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=m;i++) mx=<span class="built_in">max</span>(mx,a[i]=<span class="built_in">read</span>());</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=n;i&lt;=mx;i++){<span class="comment">//计算</span></span><br><span class="line">		<span class="type">int</span> cnt=<span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">1</span>;j&lt;=m;j++){</span><br><span class="line">			<span class="type">int</span> x=a[j];</span><br><span class="line">			<span class="keyword">while</span>(x&gt;=i) cnt+=(i-n),x-=i;</span><br><span class="line">		}</span><br><span class="line">		ans=<span class="built_in">max</span>(cnt,ans);</span><br><span class="line">	}</span><br><span class="line">	<span class="built_in">write</span>(ans);<span class="comment">//输出</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>]]></content>
+    <title>[ 小Cの游戏 Round 3 E ] L的测试</title>
+    <url>/2024/08/20/%E5%B0%8FC%E3%81%AE%E6%B8%B8%E6%88%8F-Round-3-E-L%E7%9A%84%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p>本题的代码由所有AC的人提供</p>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">	cout&lt;&lt;<span class="string">"ACADADCCCCCDBBCTFTFDCTFTFDAFTTBCBAADBACCCBC"</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>]]></content>
       <categories>
         <category>洛谷题解</category>
       </categories>
@@ -543,10 +555,10 @@
       </tags>
   </entry>
   <entry>
-    <title>[ 小Cの游戏 Round 3 E ] L的测试</title>
-    <url>/2024/08/20/%E5%B0%8FC%E3%81%AE%E6%B8%B8%E6%88%8F-Round-3-E-L%E7%9A%84%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p>本题的代码由所有AC的人提供</p>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">	cout&lt;&lt;<span class="string">"ACADADCCCCCDBBCTFTFDCTFTFDAFTTBCBAADBACCCBC"</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>]]></content>
+    <title>[ 小Cの游戏 Round 3 D ] 店铺购物</title>
+    <url>/2024/08/20/%E5%B0%8FC%E3%81%AE%E6%B8%B8%E6%88%8F-Round-3-D-%E5%BA%97%E9%93%BA%E8%B4%AD%E7%89%A9/</url>
+    <content><![CDATA[<p>本题的代码由z_z_b_提供</p>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">namespace</span> io{</span><br><span class="line">	<span class="function"><span class="keyword">inline</span> <span class="type">int</span> <span class="title">read</span><span class="params">()</span></span>{<span class="type">int</span> x=<span class="number">0</span>,w=<span class="number">0</span>;<span class="type">char</span> c=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(c))w|=c==<span class="string">'-'</span>,c=<span class="built_in">getchar</span>();<span class="keyword">while</span>(<span class="built_in">isdigit</span>(c))x=(x&lt;&lt;<span class="number">3</span>)+(x&lt;&lt;<span class="number">1</span>)+(c^<span class="number">48</span>),c=<span class="built_in">getchar</span>();<span class="keyword">return</span> w?-x:x;}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write</span><span class="params">(T x)</span></span>{<span class="keyword">if</span>(x&lt;<span class="number">0</span>)<span class="built_in">putchar</span>(<span class="string">'-'</span>),x=-x;<span class="keyword">if</span>(x&gt;<span class="number">9</span>)<span class="built_in">write</span>(x/<span class="number">10</span>);<span class="built_in">putchar</span>(x%<span class="number">10</span>+<span class="string">'0'</span>);}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write_</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">' '</span>);}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">writeln</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">'\n'</span>);}</span><br><span class="line">}<span class="comment">//快读快写</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> io;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N=<span class="number">1e5</span><span class="number">+10</span>;</span><br><span class="line"><span class="type">int</span> a[N],ans,n,m,mx;</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">	n=<span class="built_in">read</span>(),m=<span class="built_in">read</span>();<span class="comment">//读取n、m</span></span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=m;i++) mx=<span class="built_in">max</span>(mx,a[i]=<span class="built_in">read</span>());</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=n;i&lt;=mx;i++){<span class="comment">//计算</span></span><br><span class="line">		<span class="type">int</span> cnt=<span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">1</span>;j&lt;=m;j++){</span><br><span class="line">			<span class="type">int</span> x=a[j];</span><br><span class="line">			<span class="keyword">while</span>(x&gt;=i) cnt+=(i-n),x-=i;</span><br><span class="line">		}</span><br><span class="line">		ans=<span class="built_in">max</span>(cnt,ans);</span><br><span class="line">	}</span><br><span class="line">	<span class="built_in">write</span>(ans);<span class="comment">//输出</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>]]></content>
       <categories>
         <category>洛谷题解</category>
       </categories>
