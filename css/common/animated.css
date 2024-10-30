@@ -1,9 +1,3 @@
-.fade-in-down-animation {
-  animation-fill-mode: both;
-  animation-duration: 1s;
-  animation-name: fade-in-down;
-  will-change: transform;
-}
 .title-hover-animation {
   display: inline-block;
   position: relative;
