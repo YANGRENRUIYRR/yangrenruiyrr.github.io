@@ -54,28 +54,6 @@
       </tags>
   </entry>
   <entry>
-    <title>&quot;B&quot;+&quot;A&quot;+&quot;D&quot;+&quot;C&quot; Problem--题解</title>
-    <url>/2024/08/15/B+A+D+C%20Problem--%E9%A2%98%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="“B”-”A”-”D”-”C”-Problem"><a href="#“B”-”A”-”D”-”C”-Problem" class="headerlink" title="“B”+”A”+”D”+”C” Problem"></a>“B”+”A”+”D”+”C” Problem</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p>
-<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>“B”+”A”+”D”+”C”</p>
-<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，A,B,C,D</p>
-<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“B”+”A”+”D”+”C”</p>
-<h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 2 3 4</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">2143</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>int</p>
-<h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="type">int</span> a,b,c,d;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c&gt;&gt;d;</span><br><span class="line">    cout&lt;&lt;b&lt;&lt;a&lt;&lt;d&lt;&lt;c;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>洛谷题解</category>
-      </categories>
-      <tags>
-        <tag>洛谷</tag>
-        <tag>题解</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>&quot;B&quot;+&quot;C&quot;+&quot;A&quot;+&quot;D&quot; Problem--题解</title>
     <url>/2024/08/15/B+C+A+D%20Problem--%E9%A2%98%E8%A7%A3/</url>
     <content><![CDATA[<h1 id="“B”-”C”-”A”-”D”-Problem"><a href="#“B”-”C”-”A”-”D”-Problem" class="headerlink" title="“B”+”C”+”A”+”D” Problem"></a>“B”+”C”+”A”+”D” Problem</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p>
@@ -88,6 +66,28 @@
 
 <h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>int</p>
 <h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="type">int</span> a,b,c,d;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c&gt;&gt;d;</span><br><span class="line">    cout&lt;&lt;b&lt;&lt;c&lt;&lt;a&lt;&lt;d;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>洛谷题解</category>
+      </categories>
+      <tags>
+        <tag>洛谷</tag>
+        <tag>题解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>&quot;B&quot;+&quot;A&quot;+&quot;D&quot;+&quot;C&quot; Problem--题解</title>
+    <url>/2024/08/15/B+A+D+C%20Problem--%E9%A2%98%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="“B”-”A”-”D”-”C”-Problem"><a href="#“B”-”A”-”D”-”C”-Problem" class="headerlink" title="“B”+”A”+”D”+”C” Problem"></a>“B”+”A”+”D”+”C” Problem</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>无</p>
+<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>“B”+”A”+”D”+”C”</p>
+<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一行，A,B,C,D</p>
+<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“B”+”A”+”D”+”C”</p>
+<h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 2 3 4</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">2143</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>int</p>
+<h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="type">int</span> a,b,c,d;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c&gt;&gt;d;</span><br><span class="line">    cout&lt;&lt;b&lt;&lt;a&lt;&lt;d&lt;&lt;c;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
 ]]></content>
       <categories>
         <category>洛谷题解</category>
@@ -260,28 +260,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Ipconfig--题解</title>
-    <url>/2024/08/12/Ipconfig--%E9%A2%98%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="Ipconfig"><a href="#Ipconfig" class="headerlink" title="Ipconfig"></a>Ipconfig</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>有个人想要给ipconfig加上新的参数</p>
-<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输出新的参数的cmd命令</p>
-<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一个字符串string</p>
-<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“ipconfig /“+string</p>
-<h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">123123123</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">ipconfig /123123123</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>|string|&lt;=10005</p>
-<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    string str;</span><br><span class="line">    cin&gt;&gt;str;</span><br><span class="line">    cout&lt;&lt;<span class="string">"ipconfig /"</span>&lt;&lt;str;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>洛谷题解</category>
-      </categories>
-      <tags>
-        <tag>洛谷</tag>
-        <tag>题解</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Luogu Javascript</title>
     <url>/2024/10/30/Luogu-API/</url>
     <content><![CDATA[<p><strong>本帖中出现的所有JavaScript代码均需要F12控制台执行</strong><br>删除团队帖子(需要团队管理员权限):<br>用处:不需要买高级团队就可以删除</p>
@@ -311,6 +289,28 @@
       </tags>
   </entry>
   <entry>
+    <title>Ipconfig--题解</title>
+    <url>/2024/08/12/Ipconfig--%E9%A2%98%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="Ipconfig"><a href="#Ipconfig" class="headerlink" title="Ipconfig"></a>Ipconfig</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>有个人想要给ipconfig加上新的参数</p>
+<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输出新的参数的cmd命令</p>
+<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一个字符串string</p>
+<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“ipconfig /“+string</p>
+<h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">123123123</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">ipconfig /123123123</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>|string|&lt;=10005</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    string str;</span><br><span class="line">    cin&gt;&gt;str;</span><br><span class="line">    cout&lt;&lt;<span class="string">"ipconfig /"</span>&lt;&lt;str;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>洛谷题解</category>
+      </categories>
+      <tags>
+        <tag>洛谷</tag>
+        <tag>题解</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Note.ms--题解</title>
     <url>/2024/08/12/Note.ms--%E9%A2%98%E8%A7%A3/</url>
     <content><![CDATA[<h1 id="Note-ms"><a href="#Note-ms" class="headerlink" title="Note.ms"></a>Note.ms</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p><a class="link" href="https://note.ms/">Note.ms<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>是几乎没有规矩的，于是有人提出要让<a class="link" href="https://note.ms/">Note.ms<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>中存储的内容前面加上”Text:”，那个人让你帮助他写一个在字符串前面加上”Text”<br>的程序</p>
@@ -337,28 +337,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Shutdown--题解</title>
-    <url>/2024/08/12/Shutdown--%E9%A2%98%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="Shutdown"><a href="#Shutdown" class="headerlink" title="Shutdown"></a>Shutdown</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>有个同学喜欢装逼，他想用shutdown关机</p>
-<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输出在n秒后关机的cmd命令</p>
-<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一个整数n</p>
-<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“shutdown /s /t “+n</p>
-<h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">123</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">shutdown /s /t 123</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>n&lt;=INT_MAX</p>
-<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="type">int</span> a;</span><br><span class="line">    cin&gt;&gt;a;</span><br><span class="line">    cout&lt;&lt;<span class="string">"shutdown /s /t "</span>&lt;&lt;a;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>洛谷题解</category>
-      </categories>
-      <tags>
-        <tag>洛谷</tag>
-        <tag>题解</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Size--题解</title>
     <url>/2024/08/12/Size--%E9%A2%98%E8%A7%A3/</url>
     <content><![CDATA[<h1 id="Size"><a href="#Size" class="headerlink" title="Size"></a>Size</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>由于有些字符串太长了，所以小明想知道字符串的长度</p>
@@ -375,6 +353,28 @@
 
 <h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>|string|&lt;=10000</p>
 <h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    string str;</span><br><span class="line">    cin&gt;&gt;str;</span><br><span class="line">    cout&lt;&lt;str.<span class="built_in">size</span>();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>洛谷题解</category>
+      </categories>
+      <tags>
+        <tag>洛谷</tag>
+        <tag>题解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Shutdown--题解</title>
+    <url>/2024/08/12/Shutdown--%E9%A2%98%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="Shutdown"><a href="#Shutdown" class="headerlink" title="Shutdown"></a>Shutdown</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>有个同学喜欢装逼，他想用shutdown关机</p>
+<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输出在n秒后关机的cmd命令</p>
+<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>一个整数n</p>
+<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>“shutdown /s /t “+n</p>
+<h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">123</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">shutdown /s /t 123</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>n&lt;=INT_MAX</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="type">int</span> a;</span><br><span class="line">    cin&gt;&gt;a;</span><br><span class="line">    cout&lt;&lt;<span class="string">"shutdown /s /t "</span>&lt;&lt;a;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
 ]]></content>
       <categories>
         <category>洛谷题解</category>
@@ -545,10 +545,10 @@
       </tags>
   </entry>
   <entry>
-    <title>[ 小Cの游戏 Round 3 C ] 英灵使徒</title>
-    <url>/2024/08/20/%E5%B0%8FC%E3%81%AE%E6%B8%B8%E6%88%8F-Round-3-C-%E8%8B%B1%E7%81%B5%E4%BD%BF%E5%BE%92/</url>
+    <title>[ 小Cの游戏 Round 3 D ] 店铺购物</title>
+    <url>/2024/08/20/%E5%B0%8FC%E3%81%AE%E6%B8%B8%E6%88%8F-Round-3-D-%E5%BA%97%E9%93%BA%E8%B4%AD%E7%89%A9/</url>
     <content><![CDATA[<p>本题的代码由z_z_b_提供</p>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">namespace</span> io{</span><br><span class="line">	<span class="function"><span class="keyword">inline</span> <span class="type">int</span> <span class="title">read</span><span class="params">()</span></span>{<span class="type">int</span> x=<span class="number">0</span>,w=<span class="number">0</span>;<span class="type">char</span> c=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(c))w|=c==<span class="string">'-'</span>,c=<span class="built_in">getchar</span>();<span class="keyword">while</span>(<span class="built_in">isdigit</span>(c))x=(x&lt;&lt;<span class="number">3</span>)+(x&lt;&lt;<span class="number">1</span>)+(c^<span class="number">48</span>),c=<span class="built_in">getchar</span>();<span class="keyword">return</span> w?-x:x;}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write</span><span class="params">(T x)</span></span>{<span class="keyword">if</span>(x&lt;<span class="number">0</span>)<span class="built_in">putchar</span>(<span class="string">'-'</span>),x=-x;<span class="keyword">if</span>(x&gt;<span class="number">9</span>)<span class="built_in">write</span>(x/<span class="number">10</span>);<span class="built_in">putchar</span>(x%<span class="number">10</span>+<span class="string">'0'</span>);}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write_</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">' '</span>);}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">writeln</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">'\n'</span>);}</span><br><span class="line">}<span class="comment">//快读快写</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> io;</span><br><span class="line"><span class="type">double</span> a,b,c,d,n,m,x,y;</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">	a=<span class="built_in">read</span>(),b=<span class="built_in">read</span>(),m=<span class="built_in">read</span>(),c=<span class="built_in">read</span>(),d=<span class="built_in">read</span>(),n=<span class="built_in">read</span>();<span class="comment">//读取</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%.3lf %.3lf"</span>,(m*d-b*n)/(a*d-b*c),(m*c-a*n)/(b*c-a*d));<span class="comment">//输出</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>]]></content>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">namespace</span> io{</span><br><span class="line">	<span class="function"><span class="keyword">inline</span> <span class="type">int</span> <span class="title">read</span><span class="params">()</span></span>{<span class="type">int</span> x=<span class="number">0</span>,w=<span class="number">0</span>;<span class="type">char</span> c=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(c))w|=c==<span class="string">'-'</span>,c=<span class="built_in">getchar</span>();<span class="keyword">while</span>(<span class="built_in">isdigit</span>(c))x=(x&lt;&lt;<span class="number">3</span>)+(x&lt;&lt;<span class="number">1</span>)+(c^<span class="number">48</span>),c=<span class="built_in">getchar</span>();<span class="keyword">return</span> w?-x:x;}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write</span><span class="params">(T x)</span></span>{<span class="keyword">if</span>(x&lt;<span class="number">0</span>)<span class="built_in">putchar</span>(<span class="string">'-'</span>),x=-x;<span class="keyword">if</span>(x&gt;<span class="number">9</span>)<span class="built_in">write</span>(x/<span class="number">10</span>);<span class="built_in">putchar</span>(x%<span class="number">10</span>+<span class="string">'0'</span>);}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write_</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">' '</span>);}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">writeln</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">'\n'</span>);}</span><br><span class="line">}<span class="comment">//快读快写</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> io;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N=<span class="number">1e5</span><span class="number">+10</span>;</span><br><span class="line"><span class="type">int</span> a[N],ans,n,m,mx;</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">	n=<span class="built_in">read</span>(),m=<span class="built_in">read</span>();<span class="comment">//读取n、m</span></span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=m;i++) mx=<span class="built_in">max</span>(mx,a[i]=<span class="built_in">read</span>());</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=n;i&lt;=mx;i++){<span class="comment">//计算</span></span><br><span class="line">		<span class="type">int</span> cnt=<span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">1</span>;j&lt;=m;j++){</span><br><span class="line">			<span class="type">int</span> x=a[j];</span><br><span class="line">			<span class="keyword">while</span>(x&gt;=i) cnt+=(i-n),x-=i;</span><br><span class="line">		}</span><br><span class="line">		ans=<span class="built_in">max</span>(cnt,ans);</span><br><span class="line">	}</span><br><span class="line">	<span class="built_in">write</span>(ans);<span class="comment">//输出</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>]]></content>
       <categories>
         <category>洛谷题解</category>
       </categories>
@@ -558,10 +558,10 @@
       </tags>
   </entry>
   <entry>
-    <title>[ 小Cの游戏 Round 3 D ] 店铺购物</title>
-    <url>/2024/08/20/%E5%B0%8FC%E3%81%AE%E6%B8%B8%E6%88%8F-Round-3-D-%E5%BA%97%E9%93%BA%E8%B4%AD%E7%89%A9/</url>
+    <title>[ 小Cの游戏 Round 3 C ] 英灵使徒</title>
+    <url>/2024/08/20/%E5%B0%8FC%E3%81%AE%E6%B8%B8%E6%88%8F-Round-3-C-%E8%8B%B1%E7%81%B5%E4%BD%BF%E5%BE%92/</url>
     <content><![CDATA[<p>本题的代码由z_z_b_提供</p>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">namespace</span> io{</span><br><span class="line">	<span class="function"><span class="keyword">inline</span> <span class="type">int</span> <span class="title">read</span><span class="params">()</span></span>{<span class="type">int</span> x=<span class="number">0</span>,w=<span class="number">0</span>;<span class="type">char</span> c=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(c))w|=c==<span class="string">'-'</span>,c=<span class="built_in">getchar</span>();<span class="keyword">while</span>(<span class="built_in">isdigit</span>(c))x=(x&lt;&lt;<span class="number">3</span>)+(x&lt;&lt;<span class="number">1</span>)+(c^<span class="number">48</span>),c=<span class="built_in">getchar</span>();<span class="keyword">return</span> w?-x:x;}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write</span><span class="params">(T x)</span></span>{<span class="keyword">if</span>(x&lt;<span class="number">0</span>)<span class="built_in">putchar</span>(<span class="string">'-'</span>),x=-x;<span class="keyword">if</span>(x&gt;<span class="number">9</span>)<span class="built_in">write</span>(x/<span class="number">10</span>);<span class="built_in">putchar</span>(x%<span class="number">10</span>+<span class="string">'0'</span>);}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write_</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">' '</span>);}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">writeln</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">'\n'</span>);}</span><br><span class="line">}<span class="comment">//快读快写</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> io;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N=<span class="number">1e5</span><span class="number">+10</span>;</span><br><span class="line"><span class="type">int</span> a[N],ans,n,m,mx;</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">	n=<span class="built_in">read</span>(),m=<span class="built_in">read</span>();<span class="comment">//读取n、m</span></span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=m;i++) mx=<span class="built_in">max</span>(mx,a[i]=<span class="built_in">read</span>());</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=n;i&lt;=mx;i++){<span class="comment">//计算</span></span><br><span class="line">		<span class="type">int</span> cnt=<span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">1</span>;j&lt;=m;j++){</span><br><span class="line">			<span class="type">int</span> x=a[j];</span><br><span class="line">			<span class="keyword">while</span>(x&gt;=i) cnt+=(i-n),x-=i;</span><br><span class="line">		}</span><br><span class="line">		ans=<span class="built_in">max</span>(cnt,ans);</span><br><span class="line">	}</span><br><span class="line">	<span class="built_in">write</span>(ans);<span class="comment">//输出</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>]]></content>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">namespace</span> io{</span><br><span class="line">	<span class="function"><span class="keyword">inline</span> <span class="type">int</span> <span class="title">read</span><span class="params">()</span></span>{<span class="type">int</span> x=<span class="number">0</span>,w=<span class="number">0</span>;<span class="type">char</span> c=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(c))w|=c==<span class="string">'-'</span>,c=<span class="built_in">getchar</span>();<span class="keyword">while</span>(<span class="built_in">isdigit</span>(c))x=(x&lt;&lt;<span class="number">3</span>)+(x&lt;&lt;<span class="number">1</span>)+(c^<span class="number">48</span>),c=<span class="built_in">getchar</span>();<span class="keyword">return</span> w?-x:x;}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write</span><span class="params">(T x)</span></span>{<span class="keyword">if</span>(x&lt;<span class="number">0</span>)<span class="built_in">putchar</span>(<span class="string">'-'</span>),x=-x;<span class="keyword">if</span>(x&gt;<span class="number">9</span>)<span class="built_in">write</span>(x/<span class="number">10</span>);<span class="built_in">putchar</span>(x%<span class="number">10</span>+<span class="string">'0'</span>);}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">write_</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">' '</span>);}</span><br><span class="line">	<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;<span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">writeln</span><span class="params">(T x)</span></span>{<span class="built_in">write</span>(x),<span class="built_in">putchar</span>(<span class="string">'\n'</span>);}</span><br><span class="line">}<span class="comment">//快读快写</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> io;</span><br><span class="line"><span class="type">double</span> a,b,c,d,n,m,x,y;</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">	a=<span class="built_in">read</span>(),b=<span class="built_in">read</span>(),m=<span class="built_in">read</span>(),c=<span class="built_in">read</span>(),d=<span class="built_in">read</span>(),n=<span class="built_in">read</span>();<span class="comment">//读取</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%.3lf %.3lf"</span>,(m*d-b*n)/(a*d-b*c),(m*c-a*n)/(b*c-a*d));<span class="comment">//输出</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>]]></content>
       <categories>
         <category>洛谷题解</category>
       </categories>
