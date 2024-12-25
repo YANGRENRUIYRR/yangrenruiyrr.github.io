@@ -1,0 +1,1 @@
+function formatEssayDates(){var e=document.querySelectorAll(".essay-date");e&&e.forEach(function(e){var t=e.getAttribute("data-date"),a=config.language||"en",t=moment(t).locale(a).calendar();e.textContent=t})}try{swup.hooks.on("page:view",formatEssayDates)}catch(e){console.error(e)}document.addEventListener("DOMContentLoaded",formatEssayDates);
